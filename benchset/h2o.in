@@ -1,0 +1,29 @@
+$molecule
+0 1
+O  0.00000000  -0.00000000  -0.00614048  
+H  0.76443318  -0.00000000  0.58917024  
+H  -0.76443318  0.00000000  0.58917024  
+$end
+
+
+$rem
+ jobtype = sp
+ method = src1-r1
+ unrestricted = false
+ mem_total = 180000
+ cis_n_roots = 100
+ thresh = 14
+ scf_convergence = 9
+ cis_triplets false
+ use_libqints = true
+ scf_algorithm = DIIS
+ BASIS = def2-tzvpd
+ trnss              true
+ trtype             3
+ n_sol              1 ! no. of active orbs
+$end
+
+$alist
+1
+$end
+

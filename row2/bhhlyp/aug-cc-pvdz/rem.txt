@@ -1,0 +1,5 @@
+$rem 
+method = bhhlyp
+basis = aug-cc-pvdz
+$end
+

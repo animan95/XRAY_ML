@@ -1,0 +1,12 @@
+$molecule
+0 2
+  Cl   -2.6640174    1.8554498    0.0000000
+$end
+
+
+
+$rem 
+method = b3lyp
+basis = 6-31g
+$end
+

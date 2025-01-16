@@ -1,0 +1,6 @@
+$rem 
+method = pbe
+max_scf_cycles 200
+basis = def2-tzvp
+$end
+

@@ -1,0 +1,17 @@
+$molecule
+0 1
+  O   -6.8855912    3.4555625    0.0000000
+$end
+
+
+
+
+
+$rem 
+method = blyp
+basis = 6-31g
+scf_algorithm = gdm
+thresh = 14
+max_scf_cycles = 200
+$end
+

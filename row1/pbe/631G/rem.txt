@@ -1,0 +1,5 @@
+$rem 
+method = pbe
+basis = 6-31G
+$end
+

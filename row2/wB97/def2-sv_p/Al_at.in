@@ -1,0 +1,10 @@
+$molecule
+0 2
+  Al   -2.6640174    1.8554498    0.0000000
+$end
+
+$rem 
+method = wB97
+basis = def2-sv(p)
+$end
+

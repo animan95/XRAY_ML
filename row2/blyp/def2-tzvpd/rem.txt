@@ -1,0 +1,8 @@
+$rem 
+method = blyp
+basis = def2-tzvpd
+scf_algorithm = gdm
+max_scf_cycles = 200
+thresh = 14
+$end
+

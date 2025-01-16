@@ -1,0 +1,7 @@
+$rem 
+method = blyp
+basis = 6-31g
+thresh = 4
+scf_algorithm = gdm
+$end
+

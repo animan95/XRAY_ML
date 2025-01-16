@@ -1,0 +1,5 @@
+$rem 
+method = bhhlyp
+basis = def2-tzvp
+$end
+

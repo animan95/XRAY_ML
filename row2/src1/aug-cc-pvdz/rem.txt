@@ -1,0 +1,6 @@
+$rem 
+method = src1-r2
+basis = aug-cc-pvdz
+rel_x2c = 1
+$end
+

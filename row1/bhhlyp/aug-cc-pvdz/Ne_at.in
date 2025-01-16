@@ -1,0 +1,11 @@
+$molecule
+0 1
+  Ne   -6.8855912    3.4555625    0.0000000
+$end
+
+
+$rem 
+method = bhhlyp
+basis = aug-cc-pvdz
+$end
+

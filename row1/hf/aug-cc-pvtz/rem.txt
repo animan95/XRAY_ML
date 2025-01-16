@@ -1,0 +1,5 @@
+$rem 
+method = hf
+basis = aug-cc-pvtz
+$end
+

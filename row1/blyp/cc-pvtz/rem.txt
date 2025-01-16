@@ -1,0 +1,5 @@
+$rem 
+method = blyp
+basis = cc-pvtz
+$end
+

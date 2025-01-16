@@ -1,0 +1,5 @@
+$rem 
+method = scan0
+basis = sto-3g
+$end
+

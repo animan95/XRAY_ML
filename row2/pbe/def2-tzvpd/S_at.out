@@ -1,0 +1,379 @@
+This is a multi-thread run using 10 threads
+/users/PAS0291/aniketmandal95/qctrunk2/exe/qcprog.exe .S_at.in.58816.qcin.1 /tmp/slurmtmp.29694904/qchem58816/
+
+                  Welcome to Q-Chem
+     A Quantum Leap Into The Future Of Chemistry
+
+
+ Q-Chem 6.1 (devel), Q-Chem, Inc., Pleasanton, CA (2022)
+
+ E. Epifanovsky,  A. T. B. Gilbert,  Xintian Feng,  Joonho Lee,  Yuezhi Mao,  
+ N. Mardirossian,  P. Pokhilko,  A. White,  M. Wormit,  M. P. Coons,  
+ A. L. Dempwolff,  Zhengting Gan,  D. Hait,  P. R. Horn,  L. D. Jacobson,  
+ I. Kaliman,  J. Kussmann,  A. W. Lange,  Ka Un Lao,  D. S. Levine,  Jie Liu,  
+ S. C. McKenzie,  A. F. Morrison,  K. D. Nanda,  F. Plasser,  D. R. Rehn,  
+ M. L. Vidal,  Zhi-Qiang You,  Ying Zhu,  B. Alam,  B. Albrecht,  
+ A. Aldossary,  E. Alguire,  J. H. Andersen,  V. Athavale,  D. Barton,  
+ K. Begam,  A. Behn,  N. Bellonzi,  Y. A. Bernard,  E. J. Berquist,  
+ H. Burton,  A. Carreras,  K. Carter-Fenk,  Mathew Chow,  Romit Chakraborty,  
+ Chandrima Chakravarty,  Junhan Chen,  A. D. Chien,  K. D. Closser,  
+ V. Cofer-Shabica,  L. Cunha,  S. Dasgupta,  Jia Deng,  M. de Wergifosse,  
+ M. Diedenhofen,  Hainam Do,  S. Ehlert,  Po-Tung Fang,  S. Fatehi,  
+ Qingguo Feng,  T. Friedhoff,  Thomas Froitzheim,  B. Ganoe,  J. Gayvert,  
+ Qinghui Ge,  G. Gidofalvi,  M. Gimferrer,  M. Goldey,  Montgomery Gray,  
+ J. Gomes,  C. Gonzalez-Espinoza,  S. Gulania,  A. Gunina,  J. A. Gyamfi,  
+ M. W. D. Hanson-Heine,  P. H. P. Harbach,  A. W. Hauser,  M. F. Herbst,  
+ M. Hernandez Vera,  M. Hodecker,  Z. C. Holden,  S. Houck,  Xunkun Huang,  
+ Kerwin Hui,  B. C. Huynh,  K. Ikeda,  M. Ivanov,  Hyunjun Ji,  Zuxin Jin,  
+ Hanjie Jiang,  Subrata Jana,  B. Kaduk,  S. Kaehler,  R. Kang,  
+ K. Khistyaev,  Jaehoon Kim,  Yongbin Kim,  P. Klunzinger,  Z. Koczor-Benda,  
+ Joong Hoon Koh,  D. Kosenkov,  Saikiran Kotaru,  L. Koulias,  T. Kowalczyk,  
+ C. M. Krauter,  K. Kue,  A. Kunitsa,  T. Kus,  A. Landau,  K. V. Lawler,  
+ D. Lefrancois,  S. Lehtola,  Rain Li,  Shaozhi Li,  Yi-Pei Li,  
+ Jiashu Liang,  M. Liebenthal,  Hung-Hsuan Lin,  You-Sheng Lin,  Fenglai Liu,  
+ Kuan-Yu Liu,  Xiao Liu,  M. Loipersberger,  A. Luenser,  C. Malbon,  
+ A. Manjanath,  P. Manohar,  E. Mansoor,  S. F. Manzer,  Shan-Ping Mao,  
+ A. V. Marenich,  T. Markovich,  S. Mason,  F. Matz,  S. A. Maurer,  
+ P. F. McLaughlin,  M. F. S. J. Menger,  J.-M. Mewes,  S. A. Mewes,  
+ P. Morgante,  Mohammad Mostafanejad,  J. W. Mullinax,  K. J. Oosterbaan,  
+ G. Paran,  V. Parravicini,  Alexander C. Paul,  Suranjan K. Paul,  
+ F. Pavosevic,  Zheng Pei,  S. Prager,  E. I. Proynov,  E. Ramos,  B. Rana,  
+ A. E. Rask,  A. Rettig,  R. M. Richard,  F. Rob,  E. Rossomme,  T. Scheele,  
+ M. Scheurer,  M. Schneider,  P. E. Schneider,  Tim K. Schramm,  N. Sergueev,  
+ S. M. Sharada,  M. Sharma,  Hengyuan Shen,  W. Skomorowski,  D. W. Small,  
+ C. J. Stein,  Alistair J. Sterling,  Yingli Su,  Yu-Chuan Su,  
+ E. J. Sundstrom,  J. Talbot,  Zhen Tao,  J. Thirman,  Hung-Yi Tsai,  
+ T. Tsuchimochi,  N. M. Tubman,  C. Utku,  S. P. Veccham,  O. Vydrov,  
+ J. Wenzel,  Jonathan Wong,  J. Witte,  A. Yamada,  Chou-Hsun Yang,  Kun Yao,  
+ S. Yeganeh,  S. R. Yost,  A. Zech,  F. Zeller,  Igor Ying Zhang,  
+ Xing Zhang,  Yu Zhang,  D. Zuev,  A. Aspuru-Guzik,  A. T. Bell,  
+ N. A. Besley,  K. B. Bravaya,  B. R. Brooks,  D. Casanova,  Jeng-Da Chai,  
+ Hsing-Ta Chen,  S. Coriani,  C. J. Cramer,  A. E. DePrince, III,  
+ R. A. DiStasio Jr.,  A. Dreuw,  B. D. Dunietz,  T. R. Furlani,  
+ W. A. Goddard III,  S. Grimme,  S. Hammes-Schiffer,  T. Head-Gordon,  
+ W. J. Hehre,  Chao-Ping Hsu,  T.-C. Jagau,  Yousung Jung,  A. Klamt,  
+ Jing Kong,  D. S. Lambrecht,  Xiangyuan Li,  WanZhen Liang,  N. J. Mayhall,  
+ C. W. McCurdy,  J. B. Neaton,  T. Neudecker,  C. Ochsenfeld,  
+ J. A. Parkhill,  R. Peverati,  V. A. Rassolov,  Haisheng Ren,  Yihan Shao,  
+ L. V. Slipchenko,  R. P. Steele,  J. E. Subotnik,  A. J. W. Thom,  
+ A. Tkatchenko,  D. G. Truhlar,  T. Van Voorhis,  Fan Wang,  
+ T. A. Wesolowski,  K. B. Whaley,  H. L. Woodcock III,  P. M. Zimmerman,  
+ S. Faraji,  P. M. W. Gill,  M. Head-Gordon,  J. M. Herbert,  A. I. Krylov
+
+ Contributors to earlier versions of Q-Chem not listed above: 
+ R. D. Adamson,  B. Austin,  R. Baer,  J. Baker,  G. J. O. Beran,  
+ K. Brandhorst,  S. T. Brown,  E. F. C. Byrd,  Arup K. Chakraborty,  
+ G. K. L. Chan,  Chun-Min Chang,  Yunqing Chen,  C.-L. Cheng,  
+ Siu Hung Chien,  D. M. Chipman,  D. L. Crittenden,  H. Dachsel,  
+ R. J. Doerksen,  A. D. Dutoi,  R. G. Edgar,  J. Fosso-Tande,  
+ L. Fusti-Molnar,  D. Ghosh,  A. Ghysels,  A. Golubeva-Zadorozhnaya,  
+ J. Gonthier,  M. S. Gordon,  S. R. Gwaltney,  G. Hawkins,  J. E. Herr,  
+ A. Heyden,  S. Hirata,  E. G. Hohenstein,  G. Kedziora,  F. J. Keil,  
+ C. Kelley,  Jihan Kim,  R. A. King,  R. Z. Khaliullin,  P. P. Korambath,  
+ W. Kurlancheek,  A. Laurent,  A. M. Lee,  M. S. Lee,  S. V. Levchenko,  
+ Ching Yeh Lin,  D. Liotard,  E. Livshits,  R. C. Lochan,  I. Lotan,  
+ L. A. Martinez-Martinez,  P. E. Maslen,  N. Nair,  D. P. O'Neill,  
+ D. Neuhauser,  E. Neuscamman,  C. M. Oana,  R. Olivares-Amaya,  R. Olson,  
+ T. M. Perrine,  B. Peters,  P. A. Pieniazek,  A. Prociuk,  Y. M. Rhee,  
+ J. Ritchie,  M. A. Rohrdanz,  E. Rosta,  N. J. Russ,  H. F. Schaefer III,  
+ M. W. Schmidt,  N. E. Schultz,  S. Sharma,  N. Shenvi,  C. D. Sherrill,  
+ A. C. Simmonett,  A. Sodt,  T. Stein,  D. Stuck,  K. S. Thanthiriwatte,  
+ V. Vanovschi,  L. Vogt,  Tao Wang,  A. Warshel,  M. A. Watson,  
+ C. F. Williams,  Q. Wu,  X. Xu,  Jun Yang,  W. Zhang,  Yan Zhao
+
+   Please cite Q-Chem as follows:
+  "Software for the frontiers of quantum chemistry:
+   An overview of developments in the Q-Chem 5 package"
+   J. Chem. Phys. 155, 084801 (2021)
+   https://doi.org/10.1063/5.0055522 (open access)
+
+ Q-Chem 6.1.1 for Intel X86 EM64T Linux
+
+ Parts of Q-Chem use Armadillo 9.900.5 (Nocturnal Misbehaviour).
+ http://arma.sourceforge.net/
+
+ Q-Chem begins on Wed Jul  3 14:39:15 2024  
+
+ Host: p0049.ten.osc.edu
+0
+
+     Scratch files written to /tmp/slurmtmp.29694904/qchem58816//
+ Processing $rem in /users/PAS0291/aniketmandal95/qctrunk2/config/preferences:
+ Processing $rem in /users/PAS0291/aniketmandal95/.qchemrc:
+
+ Checking the input file for inconsistencies... 	...done.
+
+--------------------------------------------------------------
+User input:
+--------------------------------------------------------------
+$molecule
+0 1
+  S   -2.6640174    1.8554498    0.0000000
+$end
+
+$rem 
+method = pbe
+max_scf_cycles 200
+basis = def2-tzvpd
+$end
+
+--------------------------------------------------------------
+ ----------------------------------------------------------------
+             Standard Nuclear Orientation (Angstroms)
+    I     Atom           X                Y                Z
+ ----------------------------------------------------------------
+    1      S       0.0000000000     0.0000000000     0.0000000000
+ ----------------------------------------------------------------
+ Molecular Point Group                 Kh    NOp =***
+ Largest Abelian Subgroup              D2h   NOp =  1
+ Nuclear Repulsion Energy =           0.00000000 hartrees
+ There are        8 alpha and        8 beta electrons
+ Requested basis set is def2-TZVPD
+ There are 16 shells and 46 basis functions
+
+ Total QAlloc Memory Limit   2000 MB
+ Mega-Array Size       188 MB
+ MEM_STATIC part       192 MB
+
+ A cutoff of  1.0D-09 yielded    136 shell pairs
+ There are      1150 function pairs (      1486 Cartesian)
+ Smallest overlap matrix eigenvalue = 3.25E-02
+
+ Scale SEOQF with 1.000000e-01/1.000000e-01/1.000000e-01
+
+ Standard Electronic Orientation quadrupole field applied
+ Guess from superposition of atomic densities
+ Warning:  Energy on first SCF cycle will be non-variational
+ SAD guess density has 16.000000 electrons
+
+ -----------------------------------------------------------------------
+  General SCF calculation program by
+  Eric Jon Sundstrom, Paul Horn, Yuezhi Mao, Dmitri Zuev, Alec White,
+  David Stuck, Shaama M.S., Shane Yost, Joonho Lee, David Small,
+  Daniel Levine, Susi Lehtola, Hugh Burton, Evgeny Epifanovsky,
+  Bang C. Huynh
+ -----------------------------------------------------------------------
+ Exchange:  PBE      Correlation:  PBE
+ Using SG-1 standard quadrature grid
+ using 10 threads for integral computing
+ -------------------------------------------------------
+ OpenMP Integral computing Module                
+ Release: version 1.0, May 2013, Q-Chem Inc. Pittsburgh 
+ -------------------------------------------------------
+ A restricted SCF calculation will be
+ performed using DIIS
+ SCF converges when DIIS error is below 1.0e-05
+ ---------------------------------------
+  Cycle       Energy         DIIS error
+ ---------------------------------------
+    1    -397.8856079670      1.46e-02  
+    2    -397.8697250295      3.79e-03  
+    3    -397.8610818168      6.58e-03  
+    4    -397.8650840747      5.45e-03  
+    5    -397.8683785781      4.33e-03  
+    6    -397.8639381782      5.76e-03  
+    7    -397.8640172497      5.74e-03  
+    8    -397.8632206892      5.96e-03  
+    9    -397.8644332359      5.61e-03  
+   10    -397.8638761309      5.78e-03  
+   11    -397.8655720457      5.25e-03  
+   12    -397.8656761153      5.22e-03  
+   13    -397.8656817614      5.22e-03  
+   14    -397.8642061282      5.68e-03  
+   15    -397.8659680425      5.14e-03  
+   16    -397.8657012664      5.22e-03  
+   17    -397.8671195371      4.75e-03  
+   18    -397.8681668942      4.37e-03  
+   19    -397.8675694316      4.59e-03  
+   20    -397.8629530635      6.04e-03  
+   21    -397.8630902187      6.00e-03  
+   22    -397.8649272758      5.47e-03  
+   23    -397.8650938865      5.42e-03  
+   24    -397.8657630239      5.21e-03  
+   25    -397.8646511861      5.55e-03  
+   26    -397.8646063113      5.56e-03  
+   27    -397.8677169012      4.54e-03  
+   28    -397.8693495360      3.90e-03  
+   29    -397.8653782483      5.32e-03  
+   30    -397.8661134908      5.09e-03  
+   31    -397.8650807989      5.42e-03  
+   32    -397.8631125517      5.99e-03  
+   33    -397.8650245677      5.42e-03  
+   34    -397.8649822096      5.44e-03  
+   35    -397.8647546597      5.51e-03  
+   36    -397.8673522348      4.67e-03  
+   37    -397.8674659938      4.63e-03  
+   38    -397.8629805353      6.01e-03  
+   39    -397.8682907346      4.33e-03  
+   40    -397.8660104983      5.12e-03  
+   41    -397.8682579382      4.31e-03  
+   42    -397.8677826083      4.52e-03  
+   43    -397.8672006439      4.72e-03  
+   44    -397.8668758437      4.84e-03  
+   45    -397.8675432218      4.61e-03  
+   46    -397.8666845832      4.90e-03  
+   47    -397.8660033494      5.12e-03  
+   48    -397.8675235288      4.61e-03  
+   49    -397.8689371581      4.08e-03  
+   50    -397.8664036676      5.00e-03  
+   51    -397.8648807914      5.48e-03  
+   52    -397.8652453849      5.37e-03  
+   53    -397.8649159859      5.47e-03  
+   54    -397.8676989491      4.55e-03  
+   55    -397.8612517451      6.47e-03  
+   56    -397.8621897398      6.24e-03  
+   57    -397.8677678496      4.52e-03  
+   58    -397.8658728763      5.17e-03  
+   59    -397.8660693582      5.10e-03  
+   60    -397.8662123320      5.06e-03  
+   61    -397.8653227403      5.34e-03  
+   62    -397.8639716546      5.75e-03  
+   63    -397.8631118399      6.00e-03  
+   64    -397.8637375209      5.83e-03  
+   65    -397.8634232702      5.92e-03  
+   66    -397.8646821974      5.53e-03  
+   67    -397.8644241641      5.60e-03  
+   68    -397.8641900034      5.67e-03  
+   69    -397.8636415191      5.83e-03  
+   70    -397.8615641120      6.41e-03  
+   71    -397.8611767121      6.50e-03  
+   72    -397.8640730272      5.70e-03  
+   73    -397.8638910619      5.78e-03  
+   74    -397.8614686693      6.42e-03  
+   75    -397.8613083754      6.47e-03  
+   76    -397.8615077114      6.42e-03  
+   77    -397.8626885569      6.10e-03  
+   78    -397.8655899056      5.23e-03  
+   79    -397.8630137710      6.03e-03  
+   80    -397.8672137446      4.69e-03  
+   81    -397.8678248562      4.47e-03  
+   82    -397.8674789816      4.60e-03  
+   83    -397.8680776902      4.37e-03  
+   84    -397.8678648590      4.45e-03  
+   85    -397.8646140076      5.54e-03  
+   86    -397.8645743619      5.56e-03  
+   87    -397.8640711747      5.71e-03  
+   88    -397.8668939706      4.83e-03  
+   89    -397.8682452079      4.32e-03  
+   90    -397.8679251040      4.46e-03  
+   91    -397.8686149206      4.22e-03  
+   92    -397.8676606729      4.59e-03  
+   93    -397.8671762493      4.76e-03  
+   94    -397.8664085404      5.01e-03  
+   95    -397.8661967905      5.08e-03  
+   96    -397.8666360470      4.91e-03  
+   97    -397.8672704791      4.67e-03  
+   98    -397.8667138232      4.86e-03  
+   99    -397.8655650996      5.24e-03  
+  100    -397.8682092247      4.32e-03  
+  101    -397.8673219840      4.67e-03  
+  102    -397.8679399105      4.43e-03  
+  103    -397.8682153289      4.34e-03  
+  104    -397.8673835387      4.63e-03  
+  105    -397.8677398780      4.50e-03  
+  106    -397.8687046321      4.17e-03  
+  107    -397.8662239459      5.06e-03  
+  108    -397.8675162142      4.61e-03  
+  109    -397.8687614803      4.16e-03  
+  110    -397.8642646344      5.63e-03  
+  111    -397.8671930197      4.70e-03  
+  112    -397.8676305618      4.55e-03  
+  113    -397.8655024762      5.26e-03  
+  114    -397.8653215402      5.33e-03  
+  115    -397.8640573163      5.71e-03  
+  116    -397.8649603598      5.41e-03  
+  117    -397.8655150167      5.28e-03  
+  118    -397.8658506305      5.18e-03  
+  119    -397.8658546489      5.13e-03  
+  120    -397.8660258392      5.12e-03  
+  121    -397.8656948358      5.21e-03  
+  122    -397.8670546140      4.73e-03  
+  123    -397.8643299765      5.63e-03  
+  124    -397.8643458394      5.63e-03  
+  125    -397.8646483752      5.54e-03  
+  126    -397.8658000993      5.20e-03  
+  127    -397.8661995363      5.07e-03  
+  128    -397.8661487068      5.09e-03  
+  129    -397.8658300319      5.18e-03  
+  130    -397.8692538211      3.93e-03  
+  131    -397.8679366433      4.45e-03  
+  132    -397.8675289861      4.59e-03  
+  133    -397.8689020545      4.11e-03  
+  134    -397.8676113631      4.56e-03  
+  135    -397.8677307328      4.54e-03  
+  136    -397.8684978071      4.24e-03  
+  137    -397.8677886254      4.52e-03  
+  138    -397.8672421800      4.71e-03  
+  139    -397.8681110869      4.38e-03  
+  140    -397.8677610444      4.52e-03  
+  141    -397.8685753646      4.18e-03  
+  142    -397.8687367616      4.15e-03  
+  143    -397.8685895194      4.20e-03  
+  144    -397.8683144130      4.30e-03  
+  145    -397.8676448627      4.56e-03  
+  146    -397.8656918706      5.23e-03  
+  147    -397.8684967152      4.26e-03  
+  148    -397.8677984144      4.52e-03  
+  149    -397.8690514283      4.01e-03  
+  150    -397.8679799068      4.41e-03  
+  151    -397.8675622842      4.59e-03  
+  152    -397.8675398858      4.59e-03  
+  153    -397.8674630729      4.63e-03  
+  154    -397.8668416964      4.84e-03  
+  155    -397.8694329888      3.84e-03  
+  156    -397.8687809219      4.14e-03  
+  157    -397.8684774396      4.27e-03  
+  158    -397.8691790749      3.95e-03  
+  159    -397.8693325983      3.93e-03  
+  160    -397.8678148808      4.49e-03  
+  161    -397.8671204220      4.72e-03  
+  162    -397.8664324423      4.97e-03  
+  163    -397.8685630646      4.23e-03  
+  164    -397.8682189446      4.35e-03  
+  165    -397.8680650493      4.40e-03  
+  166    -397.8678236817      4.48e-03  
+  167    -397.8690866678      3.99e-03  
+  168    -397.8682639384      4.30e-03  
+  169    -397.8680869823      4.38e-03  
+  170    -397.8680008702      4.42e-03  
+  171    -397.8673518291      4.69e-03  
+  172    -397.8678464404      4.51e-03  
+  173    -397.8677389185      4.55e-03  
+  174    -397.8673110148      4.70e-03  
+  175    -397.8669059643      4.84e-03  
+  176    -397.8678348600      4.50e-03  
+  177    -397.8678792175      4.46e-03  
+  178    -397.8680541047      4.38e-03  
+  179    -397.8682454373      4.32e-03  
+  180    -397.8680538544      4.40e-03  
+  181    -397.8679608791      4.45e-03  
+  182    -397.8676882390      4.54e-03  
+  183    -397.8660633787      5.11e-03  
+  184    -397.8656386009      5.22e-03  
+  185    -397.8663773627      4.97e-03  
+  186    -397.8682738432      4.36e-03  
+  187    -397.8675130744      4.62e-03  
+  188    -397.8685848339      4.21e-03  
+  189    -397.8692169166      3.98e-03  
+  190    -397.8692944566      3.91e-03  
+  191    -397.8692511537      3.94e-03  
+  192    -397.8667604283      4.89e-03  
+  193    -397.8679032181      4.48e-03  
+  194    -397.8691978737      3.99e-03  
+  195    -397.8693460551      3.89e-03  
+  196    -397.8690212503      4.04e-03  
+  197    -397.8684676776      4.24e-03  
+  198    -397.8682084179      4.36e-03  
+  199    -397.8683886534      4.29e-03  
+  200    -397.8673386305      4.65e-03  
+gen_scfman_exception: SCF failed to converge
+
+ Q-Chem fatal error occurred in module libgscf/gen_scfman/gen_scfman_main.C, line 244:
+
+ Error in gen_scfman
+
+
+ Please submit a crash report at q-chem.com/reporter 
+ 
+ 
+Error: in the serial run

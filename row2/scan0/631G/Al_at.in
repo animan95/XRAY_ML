@@ -1,0 +1,17 @@
+$molecule
+0 2
+  Al   -2.6640174    1.8554498    0.0000000
+$end
+
+
+
+
+
+$rem 
+method = rSCAN
+basis = 6-31g
+scf_algorithm = gdm
+thresh = 14
+max_scf_cycles = 200
+$end
+

@@ -1,0 +1,5 @@
+$rem 
+method = pbe0
+basis = def2-tzvpd
+$end
+

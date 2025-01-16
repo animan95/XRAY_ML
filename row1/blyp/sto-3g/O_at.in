@@ -1,0 +1,13 @@
+$molecule
+0 1
+  O   -6.8855912    3.4555625    0.0000000
+$end
+
+
+
+
+$rem 
+method = blyp
+basis = sto-3g
+$end
+

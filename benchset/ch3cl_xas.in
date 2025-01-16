@@ -1,0 +1,26 @@
+$molecule
+0 1
+Cl
+C  1 1.786340
+H  2 1.083833 1 108.465219
+H  2 1.083833 1 108.465232 3 -119.997399 0
+H  2 1.083924 1 108.468435 3 120.001308 0
+$end
+
+$rem
+   EXCHANGE       src1-r2
+   BASIS          def2-tzvpd
+   !dftcis         1
+   !dftcis_params  2
+   CIS_N_ROOTS    100
+   CIS_TRIPLETS   false
+   TRNSS          true
+   TRTYPE         3
+   N_SOL          1
+   REL_SHIFT      17
+$end
+
+$alist
+1
+$end
+

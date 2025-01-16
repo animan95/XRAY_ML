@@ -1,0 +1,5 @@
+$rem 
+method = hf
+basis = 6-31G
+$end
+

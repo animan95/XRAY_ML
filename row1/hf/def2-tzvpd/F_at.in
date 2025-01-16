@@ -1,0 +1,12 @@
+$molecule
+0 2
+  F   -6.8855912    3.4555625    0.0000000
+$end
+
+
+
+$rem 
+method = hf
+basis = def2-tzvpd
+$end
+

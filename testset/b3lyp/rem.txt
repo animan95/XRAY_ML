@@ -1,0 +1,21 @@
+$rem
+ jobtype = sp
+ method = b3lyp
+ unrestricted = false
+ mem_total = 180000
+ cis_n_roots = 100
+ thresh = 14
+ scf_convergence = 9
+ cis_triplets false
+ use_libqints = true
+ scf_algorithm = DIIS
+ BASIS = def2-tzvp
+ trnss              true
+ trtype             3
+ n_sol              1 ! no. of active orbs
+$end
+
+$alist
+1
+$end
+

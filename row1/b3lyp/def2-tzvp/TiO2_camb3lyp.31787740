@@ -1,0 +1,557 @@
+This job is running on  p0040.ten.osc.edu
+Temporary directory is  /tmp/slurmtmp.31787740
+Q-Chem scratch directory is  /tmp/slurmtmp.31787740
+*** Error in `/users/PAS0291/aniketmandal95/qctrunk2/exe/qcprog.exe': munmap_chunk(): invalid pointer: 0x00000000185b5300 ***
+======= Backtrace: =========
+/lib64/libc.so.6(+0x7f474)[0x2b050cb12474]
+/users/PAS0291/aniketmandal95/qctrunk2/exe/qcprog.exe[0x910577b]
+/users/PAS0291/aniketmandal95/qctrunk2/exe/../lib/libham.so(_ZN6libham17builder_prototypeINS_8vartype2IddEELNS_15derivative_typeE1EED2Ev+0x36)[0x2b04f3d9bb26]
+/users/PAS0291/aniketmandal95/qctrunk2/exe/qcprog.exe[0xe43910]
+/users/PAS0291/aniketmandal95/qctrunk2/exe/qcprog.exe[0xfd83ea]
+/users/PAS0291/aniketmandal95/qctrunk2/exe/qcprog.exe[0xfd719e]
+/users/PAS0291/aniketmandal95/qctrunk2/exe/qcprog.exe[0xbdb9aa]
+/users/PAS0291/aniketmandal95/qctrunk2/exe/qcprog.exe[0x601914]
+/users/PAS0291/aniketmandal95/qctrunk2/exe/qcprog.exe[0x600cdc]
+/users/PAS0291/aniketmandal95/qctrunk2/exe/qcprog.exe[0x5e36f6]
+/users/PAS0291/aniketmandal95/qctrunk2/exe/qcprog.exe[0x5e12b8]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x2b050cab5555]
+/users/PAS0291/aniketmandal95/qctrunk2/exe/qcprog.exe[0x5b2629]
+======= Memory map: ========
+00400000-0af0c000 r-xp 00000000 00:3f 20667739                           /users/PAS0291/aniketmandal95/qctrunk2/exe/qcprog.exe
+0b10c000-0b11b000 r--p 0ab0c000 00:3f 20667739                           /users/PAS0291/aniketmandal95/qctrunk2/exe/qcprog.exe
+0b11b000-0b324000 rw-p 0ab1b000 00:3f 20667739                           /users/PAS0291/aniketmandal95/qctrunk2/exe/qcprog.exe
+0b324000-16beb000 rw-p 00000000 00:00 0 
+17652000-195b6000 rw-p 00000000 00:00 0                                  [heap]
+2b04d0d03000-2b04d0d25000 r-xp 00000000 00:24 3410860122                 /usr/lib64/ld-2.17.so
+2b04d0d25000-2b04d0d35000 rw-p 00000000 00:00 0 
+2b04d0d72000-2b04d0ed3000 rw-p 00000000 00:00 0 
+2b04d0f24000-2b04d0f25000 r--p 00021000 00:24 3410860122                 /usr/lib64/ld-2.17.so
+2b04d0f25000-2b04d0f26000 rw-p 00022000 00:24 3410860122                 /usr/lib64/ld-2.17.so
+2b04d0f26000-2b04d0f27000 rw-p 00000000 00:00 0 
+2b04d0f27000-2b04d0f5f000 r-xp 00000000 00:2c 19202863                   /apps/xalt/2.10.29/lib64/libxalt_init.so
+2b04d0f5f000-2b04d115f000 ---p 00038000 00:2c 19202863                   /apps/xalt/2.10.29/lib64/libxalt_init.so
+2b04d115f000-2b04d1160000 r--p 00038000 00:2c 19202863                   /apps/xalt/2.10.29/lib64/libxalt_init.so
+2b04d1160000-2b04d1161000 rw-p 00039000 00:2c 19202863                   /apps/xalt/2.10.29/lib64/libxalt_init.so
+2b04d1161000-2b04d1162000 rw-p 00000000 00:00 0 
+2b04d1162000-2b04d1172000 r-xp 00000000 00:3f 16831761                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_qchem.so
+2b04d1172000-2b04d1371000 ---p 00010000 00:3f 16831761                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_qchem.so
+2b04d1371000-2b04d1372000 r--p 0000f000 00:3f 16831761                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_qchem.so
+2b04d1372000-2b04d1373000 rw-p 00010000 00:3f 16831761                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_qchem.so
+2b04d1373000-2b04d1375000 r-xp 00000000 00:24 3410300007                 /usr/lib64/libdl-2.17.so
+2b04d1375000-2b04d1575000 ---p 00002000 00:24 3410300007                 /usr/lib64/libdl-2.17.so
+2b04d1575000-2b04d1576000 r--p 00002000 00:24 3410300007                 /usr/lib64/libdl-2.17.so
+2b04d1576000-2b04d1577000 rw-p 00003000 00:24 3410300007                 /usr/lib64/libdl-2.17.so
+2b04d1577000-2b04d158e000 r-xp 00000000 00:24 3410300041                 /usr/lib64/libpthread-2.17.so
+2b04d158e000-2b04d178d000 ---p 00017000 00:24 3410300041                 /usr/lib64/libpthread-2.17.so
+2b04d178d000-2b04d178e000 r--p 00016000 00:24 3410300041                 /usr/lib64/libpthread-2.17.so
+2b04d178e000-2b04d178f000 rw-p 00017000 00:24 3410300041                 /usr/lib64/libpthread-2.17.so
+2b04d178f000-2b04d1793000 rw-p 00000000 00:00 0 
+2b04d1793000-2b04d17da000 r-xp 00000000 00:3f 16827861                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libcppe.so
+2b04d17da000-2b04d19d9000 ---p 00047000 00:3f 16827861                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libcppe.so
+2b04d19d9000-2b04d19da000 r--p 00046000 00:3f 16827861                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libcppe.so
+2b04d19da000-2b04d19dc000 rw-p 00047000 00:3f 16827861                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libcppe.so
+2b04d19dc000-2b04d1bb5000 r-xp 00000000 00:3f 16821748                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libneo_posthf.so
+2b04d1bb5000-2b04d1db4000 ---p 001d9000 00:3f 16821748                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libneo_posthf.so
+2b04d1db4000-2b04d1db5000 r--p 001d8000 00:3f 16821748                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libneo_posthf.so
+2b04d1db5000-2b04d1dcc000 rw-p 001d9000 00:3f 16821748                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libneo_posthf.so
+2b04d1dcc000-2b04d207e000 r-xp 00000000 00:3f 16823510                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libneo_set.so
+2b04d207e000-2b04d227e000 ---p 002b2000 00:3f 16823510                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libneo_set.so
+2b04d227e000-2b04d227f000 r--p 002b2000 00:3f 16823510                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libneo_set.so
+2b04d227f000-2b04d2286000 rw-p 002b3000 00:3f 16823510                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libneo_set.so
+2b04d2286000-2b04d2288000 rw-p 00000000 00:00 0 
+2b04d2288000-2b04d2353000 r-xp 00000000 00:3f 16821487                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libneo_nuc_grad.so
+2b04d2353000-2b04d2552000 ---p 000cb000 00:3f 16821487                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libneo_nuc_grad.so
+2b04d2552000-2b04d2553000 r--p 000ca000 00:3f 16821487                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libneo_nuc_grad.so
+2b04d2553000-2b04d2558000 rw-p 000cb000 00:3f 16821487                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libneo_nuc_grad.so
+2b04d2558000-2b04d2559000 rw-p 00000000 00:00 0 
+2b04d2559000-2b04d25ef000 r-xp 00000000 00:3f 16817599                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libnoci_problem.so
+2b04d25ef000-2b04d27ee000 ---p 00096000 00:3f 16817599                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libnoci_problem.so
+2b04d27ee000-2b04d27ef000 r--p 00095000 00:3f 16817599                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libnoci_problem.so
+2b04d27ef000-2b04d27f6000 rw-p 00096000 00:3f 16817599                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libnoci_problem.so
+2b04d27f6000-2b04d28af000 r-xp 00000000 00:3f 16817407                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libnoci_matrix.so
+2b04d28af000-2b04d2aaf000 ---p 000b9000 00:3f 16817407                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libnoci_matrix.so
+2b04d2aaf000-2b04d2ab0000 r--p 000b9000 00:3f 16817407                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libnoci_matrix.so
+2b04d2ab0000-2b04d2ab9000 rw-p 000ba000 00:3f 16817407                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libnoci_matrix.so
+2b04d2ab9000-2b04d2c0c000 r-xp 00000000 00:3f 16829258                   /users/PAS0291/aniketmandal95/qctrunk2/lib/librdm2.so
+2b04d2c0c000-2b04d2e0b000 ---p 00153000 00:3f 16829258                   /users/PAS0291/aniketmandal95/qctrunk2/lib/librdm2.so
+2b04d2e0b000-2b04d2e0d000 r--p 00152000 00:3f 16829258                   /users/PAS0291/aniketmandal95/qctrunk2/lib/librdm2.so
+2b04d2e0d000-2b04d2e20000 rw-p 00154000 00:3f 16829258                   /users/PAS0291/aniketmandal95/qctrunk2/lib/librdm2.so
+2b04d2e20000-2b04d2e24000 rw-p 00000000 00:00 0 
+2b04d2e24000-2b04d2e59000 r-xp 00000000 00:3f 16829020                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libmcpdft.so
+2b04d2e59000-2b04d3059000 ---p 00035000 00:3f 16829020                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libmcpdft.so
+2b04d3059000-2b04d305a000 r--p 00035000 00:3f 16829020                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libmcpdft.so
+2b04d305a000-2b04d305b000 rw-p 00036000 00:3f 16829020                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libmcpdft.so
+2b04d305b000-2b04d314d000 r-xp 00000000 00:3f 16820530                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libneo_scf.so
+2b04d314d000-2b04d334d000 ---p 000f2000 00:3f 16820530                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libneo_scf.so
+2b04d334d000-2b04d334e000 r--p 000f2000 00:3f 16820530                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libneo_scf.so
+2b04d334e000-2b04d3354000 rw-p 000f3000 00:3f 16820530                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libneo_scf.so
+2b04d3354000-2b04d3355000 rw-p 00000000 00:00 0 
+2b04d3355000-2b04d34bd000 r-xp 00000000 00:3f 16819065                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libd3plus.so
+2b04d34bd000-2b04d36bc000 ---p 00168000 00:3f 16819065                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libd3plus.so
+2b04d36bc000-2b04d36bd000 r--p 00167000 00:3f 16819065                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libd3plus.so
+2b04d36bd000-2b04d3808000 rw-p 00168000 00:3f 16819065                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libd3plus.so
+2b04d3808000-2b04d3809000 rw-p 00000000 00:00 0 
+2b04d3809000-2b04d4743000 r-xp 00000000 00:3f 16793665                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libdftd4.so
+2b04d4743000-2b04d4943000 ---p 00f3a000 00:3f 16793665                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libdftd4.so
+2b04d4943000-2b04d4951000 r--p 00f3a000 00:3f 16793665                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libdftd4.so
+2b04d4951000-2b04d49ba000 rw-p 00f48000 00:3f 16793665                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libdftd4.so
+2b04d49ba000-2b04d5f45000 rw-p 00000000 00:00 0 
+2b04d5f45000-2b04d5fa2000 r-xp 00000000 00:3f 16816385                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libloco_ibo.so
+2b04d5fa2000-2b04d61a1000 ---p 0005d000 00:3f 16816385                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libloco_ibo.so
+2b04d61a1000-2b04d61a2000 r--p 0005c000 00:3f 16816385                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libloco_ibo.so
+2b04d61a2000-2b04d61a3000 rw-p 0005d000 00:3f 16816385                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libloco_ibo.so
+2b04d61a3000-2b04d6248000 r-xp 00000000 00:3f 16815518                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libloco_gen.so
+2b04d6248000-2b04d6447000 ---p 000a5000 00:3f 16815518                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libloco_gen.so
+2b04d6447000-2b04d6448000 r--p 000a4000 00:3f 16815518                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libloco_gen.so
+2b04d6448000-2b04d644b000 rw-p 000a5000 00:3f 16815518                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libloco_gen.so
+2b04d644b000-2b04d721a000 r-xp 00000000 00:3f 16816738                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libloco_util.so
+2b04d721a000-2b04d741a000 ---p 00dcf000 00:3f 16816738                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libloco_util.so
+2b04d741a000-2b04d7422000 r--p 00dcf000 00:3f 16816738                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libloco_util.so
+2b04d7422000-2b04d743b000 rw-p 00dd7000 00:3f 16816738                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libloco_util.so
+2b04d743b000-2b04d7440000 rw-p 00000000 00:00 0 
+2b04d7440000-2b04d74f2000 r-xp 00000000 00:3f 16830970                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_guess.so
+2b04d74f2000-2b04d76f2000 ---p 000b2000 00:3f 16830970                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_guess.so
+2b04d76f2000-2b04d76f3000 r--p 000b2000 00:3f 16830970                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_guess.so
+2b04d76f3000-2b04d76f4000 rw-p 000b3000 00:3f 16830970                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_guess.so
+2b04d76f4000-2b04d7705000 r-xp 00000000 00:3f 16804003                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_ohess.so
+2b04d7705000-2b04d7904000 ---p 00011000 00:3f 16804003                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_ohess.so
+2b04d7904000-2b04d7905000 r--p 00010000 00:3f 16804003                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_ohess.so
+2b04d7905000-2b04d7906000 rw-p 00011000 00:3f 16804003                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_ohess.so
+2b04d7906000-2b04d797d000 r-xp 00000000 00:3f 16801140                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_deriv.so
+2b04d797d000-2b04d7b7c000 ---p 00077000 00:3f 16801140                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_deriv.so
+2b04d7b7c000-2b04d7b7d000 r--p 00076000 00:3f 16801140                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_deriv.so
+2b04d7b7d000-2b04d7b81000 rw-p 00077000 00:3f 16801140                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_deriv.so
+2b04d7b81000-2b04d7c5b000 r-xp 00000000 00:3f 16813166                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libks_ham.so
+2b04d7c5b000-2b04d7e5a000 ---p 000da000 00:3f 16813166                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libks_ham.so
+2b04d7e5a000-2b04d7e5b000 r--p 000d9000 00:3f 16813166                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libks_ham.so
+2b04d7e5b000-2b04d7e62000 rw-p 000da000 00:3f 16813166                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libks_ham.so
+2b04d7e62000-2b04d7e63000 rw-p 00000000 00:00 0 
+2b04d7e63000-2b04d7f38000 r-xp 00000000 00:3f 16800747                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libterrella_ham.so
+2b04d7f38000-2b04d8138000 ---p 000d5000 00:3f 16800747                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libterrella_ham.so
+2b04d8138000-2b04d8139000 r--p 000d5000 00:3f 16800747                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libterrella_ham.so
+2b04d8139000-2b04d813d000 rw-p 000d6000 00:3f 16800747                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libterrella_ham.so
+2b04d813d000-2b04d813e000 rw-p 00000000 00:00 0 
+2b04d813e000-2b04d8751000 r-xp 00000000 00:3f 16814408                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libdf_ham.so
+2b04d8751000-2b04d8951000 ---p 00613000 00:3f 16814408                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libdf_ham.so
+2b04d8951000-2b04d8953000 r--p 00613000 00:3f 16814408                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libdf_ham.so
+2b04d8953000-2b04d8978000 rw-p 00615000 00:3f 16814408                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libdf_ham.so
+2b04d8978000-2b04d897c000 rw-p 00000000 00:00 0 
+2b04d897c000-2b04d8b61000 r-xp 00000000 00:3f 16827508                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libcisd.so
+2b04d8b61000-2b04d8d61000 ---p 001e5000 00:3f 16827508                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libcisd.so
+2b04d8d61000-2b04d8d62000 r--p 001e5000 00:3f 16827508                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libcisd.so
+2b04d8d62000-2b04d8d70000 rw-p 001e6000 00:3f 16827508                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libcisd.so
+2b04d8d70000-2b04d8d71000 rw-p 00000000 00:00 0 
+2b04d8d71000-2b04d8e6d000 r-xp 00000000 00:3f 16820188                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libset_ham_build.so
+2b04d8e6d000-2b04d906c000 ---p 000fc000 00:3f 16820188                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libset_ham_build.so
+2b04d906c000-2b04d906d000 r--p 000fb000 00:3f 16820188                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libset_ham_build.so
+2b04d906d000-2b04d9070000 rw-p 000fc000 00:3f 16820188                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libset_ham_build.so
+2b04d9070000-2b04d941d000 r-xp 00000000 00:3f 16831763                   /users/PAS0291/aniketmandal95/qctrunk2/lib/librassf.so
+2b04d941d000-2b04d961c000 ---p 003ad000 00:3f 16831763                   /users/PAS0291/aniketmandal95/qctrunk2/lib/librassf.so
+2b04d961c000-2b04d961e000 r--p 003ac000 00:3f 16831763                   /users/PAS0291/aniketmandal95/qctrunk2/lib/librassf.so
+2b04d961e000-2b04d963f000 rw-p 003ae000 00:3f 16831763                   /users/PAS0291/aniketmandal95/qctrunk2/lib/librassf.so
+2b04d963f000-2b04d9643000 rw-p 00000000 00:00 0 
+2b04d9643000-2b04d9f67000 r-xp 00000000 00:3f 16819214                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libdavidson.so
+2b04d9f67000-2b04da166000 ---p 00924000 00:3f 16819214                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libdavidson.so
+2b04da166000-2b04da168000 r--p 00923000 00:3f 16819214                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libdavidson.so
+2b04da168000-2b04da16e000 rw-p 00925000 00:3f 16819214                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libdavidson.so
+2b04da16e000-2b04da16f000 rw-p 00000000 00:00 0 
+2b04da16f000-2b04da240000 r-xp 00000000 00:3f 16810350                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libnlq_ham.so
+2b04da240000-2b04da440000 ---p 000d1000 00:3f 16810350                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libnlq_ham.so
+2b04da440000-2b04da441000 r--p 000d1000 00:3f 16810350                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libnlq_ham.so
+2b04da441000-2b04da448000 rw-p 000d2000 00:3f 16810350                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libnlq_ham.so
+2b04da448000-2b04da503000 r-xp 00000000 00:3f 16809729                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libnlq.so
+2b04da503000-2b04da702000 ---p 000bb000 00:3f 16809729                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libnlq.so
+2b04da702000-2b04da703000 r--p 000ba000 00:3f 16809729                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libnlq.so
+2b04da703000-2b04da70a000 rw-p 000bb000 00:3f 16809729                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libnlq.so
+2b04da70a000-2b04da70b000 rw-p 00000000 00:00 0 
+2b04da70b000-2b04db934000 r-xp 00000000 00:3f 16800030                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libopt3.so
+2b04db934000-2b04dbb33000 ---p 01229000 00:3f 16800030                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libopt3.so
+2b04dbb33000-2b04dbb3c000 r--p 01228000 00:3f 16800030                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libopt3.so
+2b04dbb3c000-2b04dbb5d000 rw-p 01231000 00:3f 16800030                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libopt3.so
+2b04dbb5d000-2b04dbb65000 rw-p 00000000 00:00 0 
+2b04dbb65000-2b04dbc51000 r-xp 00000000 00:3f 16800999                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libterrella.so
+2b04dbc51000-2b04dbe50000 ---p 000ec000 00:3f 16800999                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libterrella.so
+2b04dbe50000-2b04dbe51000 r--p 000eb000 00:3f 16800999                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libterrella.so
+2b04dbe51000-2b04dbe55000 rw-p 000ec000 00:3f 16800999                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libterrella.so
+2b04dbe55000-2b04dbe8a000 r-xp 00000000 00:3f 16827075                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libchiro.so
+2b04dbe8a000-2b04dc08a000 ---p 00035000 00:3f 16827075                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libchiro.so
+2b04dc08a000-2b04dc08b000 r--p 00035000 00:3f 16827075                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libchiro.so
+2b04dc08b000-2b04dc08d000 rw-p 00036000 00:3f 16827075                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libchiro.so
+2b04dc08d000-2b04dce16000 r-xp 00000000 00:3f 16818759                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libwe.so
+2b04dce16000-2b04dd016000 ---p 00d89000 00:3f 16818759                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libwe.so
+2b04dd016000-2b04dd01e000 r--p 00d89000 00:3f 16818759                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libwe.so
+2b04dd01e000-2b04dd037000 rw-p 00d91000 00:3f 16818759                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libwe.so
+2b04dd037000-2b04dd03c000 rw-p 00000000 00:00 0 
+2b04dd03c000-2b04dd0b4000 r-xp 00000000 00:3f 16821184                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libneo_utils.so
+2b04dd0b4000-2b04dd2b4000 ---p 00078000 00:3f 16821184                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libneo_utils.so
+2b04dd2b4000-2b04dd2b5000 r--p 00078000 00:3f 16821184                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libneo_utils.so
+2b04dd2b5000-2b04dd2b7000 rw-p 00079000 00:3f 16821184                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libneo_utils.so
+2b04dd2b7000-2b04dd2b8000 rw-p 00000000 00:00 0 
+2b04dd2b8000-2b04dd88f000 r-xp 00000000 00:3f 16811732                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libks.so
+2b04dd88f000-2b04dda8f000 ---p 005d7000 00:3f 16811732                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libks.so
+2b04dda8f000-2b04dda90000 r--p 005d7000 00:3f 16811732                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libks.so
+2b04dda90000-2b04ddaa1000 rw-p 005d8000 00:3f 16811732                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libks.so
+2b04ddaa1000-2b04ddaa8000 rw-p 00000000 00:00 0 
+2b04ddaa8000-2b04ddaf9000 r-xp 00000000 00:3f 16813144                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libks_utils.so
+2b04ddaf9000-2b04ddcf8000 ---p 00051000 00:3f 16813144                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libks_utils.so
+2b04ddcf8000-2b04ddcf9000 r--p 00050000 00:3f 16813144                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libks_utils.so
+2b04ddcf9000-2b04ddcfa000 rw-p 00051000 00:3f 16813144                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libks_utils.so
+2b04ddcfa000-2b04ddcfb000 rw-p 00000000 00:00 0 
+2b04ddcfb000-2b04df947000 r-xp 00000000 00:3f 16809587                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libfunc2.so
+2b04df947000-2b04dfb47000 ---p 01c4c000 00:3f 16809587                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libfunc2.so
+2b04dfb47000-2b04dfb48000 r--p 01c4c000 00:3f 16809587                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libfunc2.so
+2b04dfb48000-2b04dfb4c000 rw-p 01c4d000 00:3f 16809587                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libfunc2.so
+2b04dfb4c000-2b04dfb4e000 r-xp 00000000 00:3f 16831762                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libsolve.so
+2b04dfb4e000-2b04dfd4d000 ---p 00002000 00:3f 16831762                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libsolve.so
+2b04dfd4d000-2b04dfd4e000 r--p 00001000 00:3f 16831762                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libsolve.so
+2b04dfd4e000-2b04dfd4f000 rw-p 00002000 00:3f 16831762                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libsolve.so
+2b04dfd4f000-2b04e0450000 r-xp 00000000 00:3f 16831760                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor.so
+2b04e0450000-2b04e064f000 ---p 00701000 00:3f 16831760                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor.so
+2b04e064f000-2b04e0656000 r--p 00700000 00:3f 16831760                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor.so
+2b04e0656000-2b04e06c3000 rw-p 00707000 00:3f 16831760                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor.so
+2b04e06c3000-2b04e5102000 r-xp 00000000 00:3f 16831758                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_bto2.so
+2b04e5102000-2b04e5301000 ---p 04a3f000 00:3f 16831758                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_bto2.so
+2b04e5301000-2b04e5376000 r--p 04a3e000 00:3f 16831758                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_bto2.so
+2b04e5376000-2b04e5583000 rw-p 04ab3000 00:3f 16831758                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_bto2.so
+2b04e5583000-2b04e5585000 rw-p 00000000 00:00 0 
+2b04e5585000-2b04e55c4000 r-xp 00000000 00:3f 16827658                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libmdc_thr.so
+2b04e55c4000-2b04e57c3000 ---p 0003f000 00:3f 16827658                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libmdc_thr.so
+2b04e57c3000-2b04e57c9000 r--p 0003e000 00:3f 16827658                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libmdc_thr.so
+2b04e57c9000-2b04e57dd000 rw-p 00044000 00:3f 16827658                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libmdc_thr.so
+2b04e57dd000-2b04e57e1000 rw-p 00000000 00:00 0 
+2b04e57e1000-2b04e6633000 r-xp 00000000 00:3f 16831759                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_bto3.so
+2b04e6633000-2b04e6832000 ---p 00e52000 00:3f 16831759                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_bto3.so
+2b04e6832000-2b04e6840000 r--p 00e51000 00:3f 16831759                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_bto3.so
+2b04e6840000-2b04e68ec000 rw-p 00e5f000 00:3f 16831759                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_bto3.so
+2b04e68ec000-2b04e68ee000 rw-p 00000000 00:00 0 
+2b04e68ee000-2b04e8dbc000 r-xp 00000000 00:3f 16831757                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_bto1.so
+2b04e8dbc000-2b04e8fbc000 ---p 024ce000 00:3f 16831757                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_bto1.so
+2b04e8fbc000-2b04e8fdd000 r--p 024ce000 00:3f 16831757                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_bto1.so
+2b04e8fdd000-2b04e90f3000 rw-p 024ef000 00:3f 16831757                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_bto1.so
+2b04e90f3000-2b04e90f5000 rw-p 00000000 00:00 0 
+2b04e90f5000-2b04eb44c000 r-xp 00000000 00:3f 16831436                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_so.so
+2b04eb44c000-2b04eb64b000 ---p 02357000 00:3f 16831436                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_so.so
+2b04eb64b000-2b04eb66d000 r--p 02356000 00:3f 16831436                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_so.so
+2b04eb66d000-2b04eb78e000 rw-p 02378000 00:3f 16831436                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_so.so
+2b04eb78e000-2b04eb799000 rw-p 00000000 00:00 0 
+2b04eb799000-2b04ecb45000 r-xp 00000000 00:3f 16831512                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_dto.so
+2b04ecb45000-2b04ecd44000 ---p 013ac000 00:3f 16831512                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_dto.so
+2b04ecd44000-2b04ecd51000 r--p 013ab000 00:3f 16831512                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_dto.so
+2b04ecd51000-2b04ecdda000 rw-p 013b8000 00:3f 16831512                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_dto.so
+2b04ecdda000-2b04ee5b7000 r-xp 00000000 00:3f 16793204                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libmbd.so
+2b04ee5b7000-2b04ee7b6000 ---p 017dd000 00:3f 16793204                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libmbd.so
+2b04ee7b6000-2b04ee7d1000 r--p 017dc000 00:3f 16793204                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libmbd.so
+2b04ee7d1000-2b04ee807000 rw-p 017f7000 00:3f 16793204                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libmbd.so
+2b04ee807000-2b04ee824000 rw-p 00000000 00:00 0 
+2b04ee824000-2b04ef78d000 r-xp 00000000 00:3f 16809378                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libfunc.so
+2b04ef78d000-2b04ef98c000 ---p 00f69000 00:3f 16809378                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libfunc.so
+2b04ef98c000-2b04ef98d000 r--p 00f68000 00:3f 16809378                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libfunc.so
+2b04ef98d000-2b04ef990000 rw-p 00f69000 00:3f 16809378                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libfunc.so
+2b04ef990000-2b04ef9aa000 r-xp 00000000 00:3f 16826053                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libarchive_binding.so
+2b04ef9aa000-2b04efba9000 ---p 0001a000 00:3f 16826053                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libarchive_binding.so
+2b04efba9000-2b04efbac000 r--p 00019000 00:3f 16826053                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libarchive_binding.so
+2b04efbac000-2b04efbad000 rw-p 0001c000 00:3f 16826053                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libarchive_binding.so
+2b04efbad000-2b04f0015000 r-xp 00000000 00:3f 16824766                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libarchive_api.so
+2b04f0015000-2b04f0215000 ---p 00468000 00:3f 16824766                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libarchive_api.so
+2b04f0215000-2b04f0216000 r--p 00468000 00:3f 16824766                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libarchive_api.so
+2b04f0216000-2b04f021f000 rw-p 00469000 00:3f 16824766                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libarchive_api.so
+2b04f021f000-2b04f0246000 r-xp 00000000 00:3f 16825673                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libarchive_impl.so
+2b04f0246000-2b04f0445000 ---p 00027000 00:3f 16825673                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libarchive_impl.so
+2b04f0445000-2b04f0448000 r--p 00026000 00:3f 16825673                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libarchive_impl.so
+2b04f0448000-2b04f0449000 rw-p 00029000 00:3f 16825673                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libarchive_impl.so
+2b04f0449000-2b04f04f1000 r-xp 00000000 00:3f 16824646                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libarchive_tasks.so
+2b04f04f1000-2b04f06f1000 ---p 000a8000 00:3f 16824646                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libarchive_tasks.so
+2b04f06f1000-2b04f06f2000 r--p 000a8000 00:3f 16824646                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libarchive_tasks.so
+2b04f06f2000-2b04f06f6000 rw-p 000a9000 00:3f 16824646                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libarchive_tasks.so
+2b04f06f6000-2b04f06f7000 rw-p 00000000 00:00 0 
+2b04f06f7000-2b04f086c000 r-xp 00000000 00:3f 16818353                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libisdf.so
+2b04f086c000-2b04f0a6b000 ---p 00175000 00:3f 16818353                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libisdf.so
+2b04f0a6b000-2b04f0a6c000 r--p 00174000 00:3f 16818353                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libisdf.so
+2b04f0a6c000-2b04f0a87000 rw-p 00175000 00:3f 16818353                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libisdf.so
+2b04f0a87000-2b04f1182000 r-xp 00000000 00:3f 16816760                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgmbpt.so
+2b04f1182000-2b04f1382000 ---p 006fb000 00:3f 16816760                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgmbpt.so
+2b04f1382000-2b04f1383000 r--p 006fb000 00:3f 16816760                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgmbpt.so
+2b04f1383000-2b04f1403000 rw-p 006fc000 00:3f 16816760                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgmbpt.so
+2b04f1403000-2b04f1408000 rw-p 00000000 00:00 0 
+2b04f1408000-2b04f146f000 r-xp 00000000 00:3f 16799518                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libcpscf.so
+2b04f146f000-2b04f166e000 ---p 00067000 00:3f 16799518                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libcpscf.so
+2b04f166e000-2b04f166f000 r--p 00066000 00:3f 16799518                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libcpscf.so
+2b04f166f000-2b04f1671000 rw-p 00067000 00:3f 16799518                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libcpscf.so
+2b04f1671000-2b04f170c000 r-xp 00000000 00:3f 16803168                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_oo.so
+2b04f170c000-2b04f190c000 ---p 0009b000 00:3f 16803168                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_oo.so
+2b04f190c000-2b04f190d000 r--p 0009b000 00:3f 16803168                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_oo.so
+2b04f190d000-2b04f1911000 rw-p 0009c000 00:3f 16803168                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_oo.so
+2b04f1911000-2b04f191e000 r-xp 00000000 00:3f 16803502                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_stab.so
+2b04f191e000-2b04f1b1d000 ---p 0000d000 00:3f 16803502                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_stab.so
+2b04f1b1d000-2b04f1b1e000 r--p 0000c000 00:3f 16803502                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_stab.so
+2b04f1b1e000-2b04f1b1f000 rw-p 0000d000 00:3f 16803502                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_stab.so
+2b04f1b1f000-2b04f1d31000 r-xp 00000000 00:3f 16815025                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libloco_scfmi.so
+2b04f1d31000-2b04f1f31000 ---p 00212000 00:3f 16815025                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libloco_scfmi.so
+2b04f1f31000-2b04f1f32000 r--p 00212000 00:3f 16815025                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libloco_scfmi.so
+2b04f1f32000-2b04f1f36000 rw-p 00213000 00:3f 16815025                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libloco_scfmi.so
+2b04f1f36000-2b04f1f38000 rw-p 00000000 00:00 0 
+2b04f1f38000-2b04f2241000 r-xp 00000000 00:3f 16803495                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_scf.so
+2b04f2241000-2b04f2440000 ---p 00309000 00:3f 16803495                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_scf.so
+2b04f2440000-2b04f2441000 r--p 00308000 00:3f 16803495                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_scf.so
+2b04f2441000-2b04f2448000 rw-p 00309000 00:3f 16803495                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_scf.so
+2b04f2448000-2b04f244a000 rw-p 00000000 00:00 0 
+2b04f244a000-2b04f245b000 r-xp 00000000 00:3f 16802519                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_fock.so
+2b04f245b000-2b04f265b000 ---p 00011000 00:3f 16802519                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_fock.so
+2b04f265b000-2b04f265c000 r--p 00011000 00:3f 16802519                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_fock.so
+2b04f265c000-2b04f265d000 rw-p 00012000 00:3f 16802519                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_fock.so
+2b04f265d000-2b04f27b4000 r-xp 00000000 00:3f 16803165                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_opt_simult.so
+2b04f27b4000-2b04f29b4000 ---p 00157000 00:3f 16803165                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_opt_simult.so
+2b04f29b4000-2b04f29b5000 r--p 00157000 00:3f 16803165                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_opt_simult.so
+2b04f29b5000-2b04f29b8000 rw-p 00158000 00:3f 16803165                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_opt_simult.so
+2b04f29b8000-2b04f29b9000 rw-p 00000000 00:00 0 
+2b04f29b9000-2b04f2e9d000 r-xp 00000000 00:3f 16808308                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libfock_ham.so
+2b04f2e9d000-2b04f309c000 ---p 004e4000 00:3f 16808308                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libfock_ham.so
+2b04f309c000-2b04f309e000 r--p 004e3000 00:3f 16808308                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libfock_ham.so
+2b04f309e000-2b04f30c4000 rw-p 004e5000 00:3f 16808308                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libfock_ham.so
+2b04f30c4000-2b04f30c8000 rw-p 00000000 00:00 0 
+2b04f30c8000-2b04f30f0000 r-xp 00000000 00:3f 16804308                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libminiqc_ham.so
+2b04f30f0000-2b04f32ef000 ---p 00028000 00:3f 16804308                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libminiqc_ham.so
+2b04f32ef000-2b04f32f0000 r--p 00027000 00:3f 16804308                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libminiqc_ham.so
+2b04f32f0000-2b04f32f1000 rw-p 00028000 00:3f 16804308                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libminiqc_ham.so
+2b04f32f1000-2b04f3b36000 r-xp 00000000 00:3f 16804294                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libminiqc_utils.so
+2b04f3b36000-2b04f3d35000 ---p 00845000 00:3f 16804294                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libminiqc_utils.so
+2b04f3d35000-2b04f3d37000 r--p 00844000 00:3f 16804294                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libminiqc_utils.so
+2b04f3d37000-2b04f3d3d000 rw-p 00846000 00:3f 16804294                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libminiqc_utils.so
+2b04f3d3d000-2b04f3d3e000 rw-p 00000000 00:00 0 
+2b04f3d3e000-2b04f3df4000 r-xp 00000000 00:3f 16799348                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libham.so
+2b04f3df4000-2b04f3ff3000 ---p 000b6000 00:3f 16799348                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libham.so
+2b04f3ff3000-2b04f3ff4000 r--p 000b5000 00:3f 16799348                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libham.so
+2b04f3ff4000-2b04f3ffc000 rw-p 000b6000 00:3f 16799348                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libham.so
+2b04f3ffc000-2b04f4049000 r-xp 00000000 00:3f 16799051                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libxcdef.so
+2b04f4049000-2b04f4249000 ---p 0004d000 00:3f 16799051                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libxcdef.so
+2b04f4249000-2b04f424a000 r--p 0004d000 00:3f 16799051                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libxcdef.so
+2b04f424a000-2b04f424b000 rw-p 0004e000 00:3f 16799051                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libxcdef.so
+2b04f424b000-2b04f4d66000 r-xp 00000000 00:3f 16813931                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libdf.so
+2b04f4d66000-2b04f4f66000 ---p 00b1b000 00:3f 16813931                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libdf.so
+2b04f4f66000-2b04f4f68000 r--p 00b1b000 00:3f 16813931                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libdf.so
+2b04f4f68000-2b04f4fc2000 rw-p 00b1d000 00:3f 16813931                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libdf.so
+2b04f4fc2000-2b04f4fc7000 rw-p 00000000 00:00 0 
+2b04f4fc7000-2b04f56ea000 r-xp 00000000 00:3f 16813926                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libposthf.so
+2b04f56ea000-2b04f58e9000 ---p 00723000 00:3f 16813926                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libposthf.so
+2b04f58e9000-2b04f58eb000 r--p 00722000 00:3f 16813926                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libposthf.so
+2b04f58eb000-2b04f58fd000 rw-p 00724000 00:3f 16813926                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libposthf.so
+2b04f58fd000-2b04f58fe000 rw-p 00000000 00:00 0 
+2b04f58fe000-2b04f5db4000 r-xp 00000000 00:3f 16802946                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_opt.so
+2b04f5db4000-2b04f5fb3000 ---p 004b6000 00:3f 16802946                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_opt.so
+2b04f5fb3000-2b04f5fb4000 r--p 004b5000 00:3f 16802946                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_opt.so
+2b04f5fb4000-2b04f5fbb000 rw-p 004b6000 00:3f 16802946                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_opt.so
+2b04f5fbb000-2b04f5fbd000 rw-p 00000000 00:00 0 
+2b04f5fbd000-2b04f69d2000 r-xp 00000000 00:3f 16802235                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_util.so
+2b04f69d2000-2b04f6bd2000 ---p 00a15000 00:3f 16802235                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_util.so
+2b04f6bd2000-2b04f6bd4000 r--p 00a15000 00:3f 16802235                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_util.so
+2b04f6bd4000-2b04f6bdb000 rw-p 00a17000 00:3f 16802235                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgscf_util.so
+2b04f6bdb000-2b04f7561000 r-xp 00000000 00:3f 16807689                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libfock.so
+2b04f7561000-2b04f7760000 ---p 00986000 00:3f 16807689                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libfock.so
+2b04f7760000-2b04f7763000 r--p 00985000 00:3f 16807689                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libfock.so
+2b04f7763000-2b04f777a000 rw-p 00988000 00:3f 16807689                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libfock.so
+2b04f777a000-2b04f777d000 rw-p 00000000 00:00 0 
+2b04f777d000-2b04f7d5b000 r-xp 00000000 00:3f 16794995                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libecpint.so
+2b04f7d5b000-2b04f7f5b000 ---p 005de000 00:3f 16794995                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libecpint.so
+2b04f7f5b000-2b04f7f5c000 r--p 005de000 00:3f 16794995                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libecpint.so
+2b04f7f5c000-2b04f7f5d000 rw-p 005df000 00:3f 16794995                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libecpint.so
+2b04f7f5d000-2b04f7f5e000 rw-p 00000000 00:00 0 
+2b04f7f5e000-2b04f7f8b000 r-xp 00000000 00:3f 16797348                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libqchem.so
+2b04f7f8b000-2b04f818a000 ---p 0002d000 00:3f 16797348                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libqchem.so
+2b04f818a000-2b04f818b000 r--p 0002c000 00:3f 16797348                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libqchem.so
+2b04f818b000-2b04f818c000 rw-p 0002d000 00:3f 16797348                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libqchem.so
+2b04f818c000-2b04f8199000 r-xp 00000000 00:3f 16796083                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libatm.so
+2b04f8199000-2b04f8398000 ---p 0000d000 00:3f 16796083                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libatm.so
+2b04f8398000-2b04f8399000 r--p 0000c000 00:3f 16796083                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libatm.so
+2b04f8399000-2b04f839a000 rw-p 0000d000 00:3f 16796083                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libatm.so
+2b04f839a000-2b04f83d1000 r-xp 00000000 00:3f 16797146                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libstore.so
+2b04f83d1000-2b04f85d1000 ---p 00037000 00:3f 16797146                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libstore.so
+2b04f85d1000-2b04f85d2000 r--p 00037000 00:3f 16797146                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libstore.so
+2b04f85d2000-2b04f85d4000 rw-p 00038000 00:3f 16797146                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libstore.so
+2b04f85d4000-2b04f85f8000 r-xp 00000000 00:3f 16793205                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libctx.so.
+2b04f85f8000-2b04f87f7000 ---p 00024000 00:3f 16793205                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libctx.so.
+2b04f87f7000-2b04f87f8000 r--p 00023000 00:3f 16793205                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libctx.so.
+2b04f87f8000-2b04f87f9000 rw-p 00024000 00:3f 16793205                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libctx.so.
+2b04f87f9000-2b04f8c77000 r-xp 00000000 00:2c 30203                      /apps/hdf5-serial/intel/18.0/1.10.2/lib/libhdf5.so.101.1.0
+2b04f8c77000-2b04f8e77000 ---p 0047e000 00:2c 30203                      /apps/hdf5-serial/intel/18.0/1.10.2/lib/libhdf5.so.101.1.0
+2b04f8e77000-2b04f8e81000 r--p 0047e000 00:2c 30203                      /apps/hdf5-serial/intel/18.0/1.10.2/lib/libhdf5.so.101.1.0
+2b04f8e81000-2b04f8e8b000 rw-p 00488000 00:2c 30203                      /apps/hdf5-serial/intel/18.0/1.10.2/lib/libhdf5.so.101.1.0
+2b04f8e8b000-2b04f8e8e000 rw-p 00000000 00:00 0 
+2b04f8e8e000-2b04f8ea3000 r-xp 00000000 00:24 3410301415                 /usr/lib64/libz.so.1.2.7
+2b04f8ea3000-2b04f90a2000 ---p 00015000 00:24 3410301415                 /usr/lib64/libz.so.1.2.7
+2b04f90a2000-2b04f90a3000 r--p 00014000 00:24 3410301415                 /usr/lib64/libz.so.1.2.7
+2b04f90a3000-2b04f90a4000 rw-p 00015000 00:24 3410301415                 /usr/lib64/libz.so.1.2.7
+2b04f90a4000-2b04f91a5000 r-xp 00000000 00:24 3410300009                 /usr/lib64/libm-2.17.so
+2b04f91a5000-2b04f93a4000 ---p 00101000 00:24 3410300009                 /usr/lib64/libm-2.17.so
+2b04f93a4000-2b04f93a5000 r--p 00100000 00:24 3410300009                 /usr/lib64/libm-2.17.so
+2b04f93a5000-2b04f93a6000 rw-p 00101000 00:24 3410300009                 /usr/lib64/libm-2.17.so
+2b04f93a6000-2b04f93a8000 r-xp 00000000 00:24 3411935730                 /usr/lib64/libsz.so.2.0.1
+2b04f93a8000-2b04f95a7000 ---p 00002000 00:24 3411935730                 /usr/lib64/libsz.so.2.0.1
+2b04f95a7000-2b04f95a8000 r--p 00001000 00:24 3411935730                 /usr/lib64/libsz.so.2.0.1
+2b04f95a8000-2b04f95a9000 rw-p 00002000 00:24 3411935730                 /usr/lib64/libsz.so.2.0.1
+2b04f95a9000-2b04f95b0000 r-xp 00000000 00:24 3411935728                 /usr/lib64/libaec.so.0.0.10
+2b04f95b0000-2b04f97af000 ---p 00007000 00:24 3411935728                 /usr/lib64/libaec.so.0.0.10
+2b04f97af000-2b04f97b0000 r--p 00006000 00:24 3411935728                 /usr/lib64/libaec.so.0.0.10
+2b04f97b0000-2b04f97b1000 rw-p 00007000 00:24 3411935728                 /usr/lib64/libaec.so.0.0.10
+2b04f97b1000-2b04f97b8000 r-xp 00000000 00:24 3410300060                 /usr/lib64/librt-2.17.so
+2b04f97b8000-2b04f99b7000 ---p 00007000 00:24 3410300060                 /usr/lib64/librt-2.17.so
+2b04f99b7000-2b04f99b8000 r--p 00006000 00:24 3410300060                 /usr/lib64/librt-2.17.so
+2b04f99b8000-2b04f99b9000 rw-p 00007000 00:24 3410300060                 /usr/lib64/librt-2.17.so
+2b04f99b9000-2b04fa263000 r-xp 00000000 00:3f 16798921                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgrid.so
+2b04fa263000-2b04fa463000 ---p 008aa000 00:3f 16798921                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgrid.so
+2b04fa463000-2b04fa465000 r--p 008aa000 00:3f 16798921                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgrid.so
+2b04fa465000-2b04fa46f000 rw-p 008ac000 00:3f 16798921                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libgrid.so
+2b04fa46f000-2b04fa470000 rw-p 00000000 00:00 0 
+2b04fa470000-2b050663b000 r-xp 00000000 00:3f 16796229                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libqints.so
+2b050663b000-2b050683a000 ---p 0c1cb000 00:3f 16796229                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libqints.so
+2b050683a000-2b05081ac000 r--p 0c1ca000 00:3f 16796229                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libqints.so
+2b05081ac000-2b05083c0000 rw-p 0db3c000 00:3f 16796229                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libqints.so
+2b05083c0000-2b05083cb000 rw-p 00000000 00:00 0 
+2b05083cb000-2b050ba02000 r-xp 00000000 00:3f 16831361                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_core.so
+2b050ba02000-2b050bc02000 ---p 03637000 00:3f 16831361                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_core.so
+2b050bc02000-2b050bc12000 r--p 03637000 00:3f 16831361                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_core.so
+2b050bc12000-2b050bccc000 rw-p 03647000 00:3f 16831361                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensor_core.so
+2b050bccc000-2b050bcdc000 rw-p 00000000 00:00 0 
+2b050bcdc000-2b050bcf8000 r-xp 00000000 00:3f 16827607                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensutil.so
+2b050bcf8000-2b050bef7000 ---p 0001c000 00:3f 16827607                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensutil.so
+2b050bef7000-2b050bef8000 r--p 0001b000 00:3f 16827607                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensutil.so
+2b050bef8000-2b050befa000 rw-p 0001c000 00:3f 16827607                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libtensutil.so
+2b050befa000-2b050bf02000 r-xp 00000000 00:3f 16797523                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libqchem_version.so
+2b050bf02000-2b050c101000 ---p 00008000 00:3f 16797523                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libqchem_version.so
+2b050c101000-2b050c102000 r--p 00007000 00:3f 16797523                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libqchem_version.so
+2b050c102000-2b050c103000 rw-p 00008000 00:3f 16797523                   /users/PAS0291/aniketmandal95/qctrunk2/lib/libqchem_version.so
+2b050c103000-2b050c277000 r-xp 00000000 00:2c 7905980                    /apps/gnu/8.4.0/lib64/libstdc++.so.6.0.25
+2b050c277000-2b050c476000 ---p 00174000 00:2c 7905980                    /apps/gnu/8.4.0/lib64/libstdc++.so.6.0.25
+2b050c476000-2b050c480000 r--p 00173000 00:2c 7905980                    /apps/gnu/8.4.0/lib64/libstdc++.so.6.0.25
+2b050c480000-2b050c482000 rw-p 0017d000 00:2c 7905980                    /apps/gnu/8.4.0/lib64/libstdc++.so.6.0.25
+2b050c482000-2b050c486000 rw-p 00000000 00:00 0 
+2b050c486000-2b050c640000 r-xp 00000000 00:24 3411629003                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libiomp5.so
+2b050c640000-2b050c840000 ---p 001ba000 00:24 3411629003                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libiomp5.so
+2b050c840000-2b050c843000 r--p 001ba000 00:24 3411629003                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libiomp5.so
+2b050c843000-2b050c84d000 rw-p 001bd000 00:24 3411629003                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libiomp5.so
+2b050c84d000-2b050c87b000 rw-p 00000000 00:00 0 
+2b050c87b000-2b050c892000 r-xp 00000000 00:2c 5669148                    /apps/gnu/8.4.0/lib64/libgcc_s.so.1
+2b050c892000-2b050ca91000 ---p 00017000 00:2c 5669148                    /apps/gnu/8.4.0/lib64/libgcc_s.so.1
+2b050ca91000-2b050ca92000 r--p 00016000 00:2c 5669148                    /apps/gnu/8.4.0/lib64/libgcc_s.so.1
+2b050ca92000-2b050ca93000 rw-p 00017000 00:2c 5669148                    /apps/gnu/8.4.0/lib64/libgcc_s.so.1
+2b050ca93000-2b050cc57000 r-xp 00000000 00:24 3410299994                 /usr/lib64/libc-2.17.so
+2b050cc57000-2b050ce56000 ---p 001c4000 00:24 3410299994                 /usr/lib64/libc-2.17.so
+2b050ce56000-2b050ce5a000 r--p 001c3000 00:24 3410299994                 /usr/lib64/libc-2.17.so
+2b050ce5a000-2b050ce5c000 rw-p 001c7000 00:24 3410299994                 /usr/lib64/libc-2.17.so
+2b050ce5c000-2b050ce61000 rw-p 00000000 00:00 0 
+2b050ce61000-2b050d26b000 r-xp 00000000 00:24 3410875749                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libimf.so
+2b050d26b000-2b050d46b000 ---p 0040a000 00:24 3410875749                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libimf.so
+2b050d46b000-2b050d472000 r--p 0040a000 00:24 3410875749                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libimf.so
+2b050d472000-2b050d4e6000 rw-p 00411000 00:24 3410875749                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libimf.so
+2b050d4e6000-2b050ecee000 r-xp 00000000 00:24 3410768571                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libsvml.so
+2b050ecee000-2b050eeee000 ---p 01808000 00:24 3410768571                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libsvml.so
+2b050eeee000-2b050ef3e000 r--p 01808000 00:24 3410768571                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libsvml.so
+2b050ef3e000-2b050ef72000 rw-p 01858000 00:24 3410768571                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libsvml.so
+2b050ef72000-2b050f0ca000 r-xp 00000000 00:24 3411159032                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libirng.so
+2b050f0ca000-2b050f2c9000 ---p 00158000 00:24 3411159032                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libirng.so
+2b050f2c9000-2b050f2ca000 r--p 00157000 00:24 3411159032                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libirng.so
+2b050f2ca000-2b050f2dd000 rw-p 00158000 00:24 3411159032                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libirng.so
+2b050f2dd000-2b050f34b000 r-xp 00000000 00:24 3410875751                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libintlc.so.5
+2b050f34b000-2b050f54b000 ---p 0006e000 00:24 3410875751                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libintlc.so.5
+2b050f54b000-2b050f54c000 r--p 0006e000 00:24 3410875751                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libintlc.so.5
+2b050f54c000-2b050f54d000 rw-p 0006f000 00:24 3410875751                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libintlc.so.5
+2b050f54d000-2b050f54f000 rw-p 00000000 00:00 0 
+2b050f54f000-2b050f578000 r-xp 00000000 00:24 3410973073                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libifport.so.5
+2b050f578000-2b050f777000 ---p 00029000 00:24 3410973073                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libifport.so.5
+2b050f777000-2b050f778000 r--p 00028000 00:24 3410973073                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libifport.so.5
+2b050f778000-2b050f77a000 rw-p 00029000 00:24 3410973073                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libifport.so.5
+2b050f77a000-2b050f77d000 rw-p 00000000 00:00 0 
+2b050f77d000-2b050f8ba000 r-xp 00000000 00:24 3410973069                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libifcoremt.so.5
+2b050f8ba000-2b050faba000 ---p 0013d000 00:24 3410973069                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libifcoremt.so.5
+2b050faba000-2b050fabd000 r--p 0013d000 00:24 3410973069                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libifcoremt.so.5
+2b050fabd000-2b050fac0000 rw-p 00140000 00:24 3410973069                 /opt/intel/19.0.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/libifcoremt.so.5
+2b050fac0000-2b050fb12000 rw-p 00000000 00:00 0 
+2b050fb12000-2b050fb16000 r-xp 00000000 00:2c 21954920                   /apps/xalt/2.10.29/lib64/libuuid.so.1.3.0
+2b050fb16000-2b050fd15000 ---p 00004000 00:2c 21954920                   /apps/xalt/2.10.29/lib64/libuuid.so.1.3.0
+2b050fd15000-2b050fd16000 r--p 00003000 00:2c 21954920                   /apps/xalt/2.10.29/lib64/libuuid.so.1.3.0
+2b050fd16000-2b050fd17000 rw-p 00004000 00:2c 21954920                   /apps/xalt/2.10.29/lib64/libuuid.so.1.3.0
+2b050fd17000-2b051b7ba000 rw-p 00000000 00:00 0 
+2b051b7ba000-2b051b7bb000 ---p 00000000 00:00 0 
+2b051b7bb000-2b051bbbc000 rw-p 00000000 00:00 0 
+2b051bbbc000-2b051bbbd000 ---p 00000000 00:00 0 
+2b051bbbd000-2b051bfbe000 rw-p 00000000 00:00 0 
+2b051bfbe000-2b051bfbf000 ---p 00000000 00:00 0 
+2b051bfbf000-2b051c3c0000 rw-p 00000000 00:00 0 
+2b051c3c0000-2b051c3c1000 ---p 00000000 00:00 0 
+2b051c3c1000-2b051c7c2000 rw-p 00000000 00:00 0 
+2b051c7c2000-2b051c7c3000 ---p 00000000 00:00 0 
+2b051c7c3000-2b051cbc4000 rw-p 00000000 00:00 0 
+2b051cbc4000-2b051cbc5000 ---p 00000000 00:00 0 
+2b051cbc5000-2b051cfc6000 rw-p 00000000 00:00 0 
+2b051cfc6000-2b051cfc7000 ---p 00000000 00:00 0 
+2b051cfc7000-2b051d3c8000 rw-p 00000000 00:00 0 
+2b051d3c8000-2b051d3c9000 ---p 00000000 00:00 0 
+2b051d3c9000-2b051d7ca000 rw-p 00000000 00:00 0 
+2b051d7ca000-2b051d7cb000 ---p 00000000 00:00 0 
+2b051d7cb000-2b051dbcc000 rw-p 00000000 00:00 0 
+2b051dbcc000-2b051dbcd000 ---p 00000000 00:00 0 
+2b051dbcd000-2b051dfce000 rw-p 00000000 00:00 0 
+2b051dfce000-2b051dfcf000 ---p 00000000 00:00 0 
+2b051dfcf000-2b051e3d0000 rw-p 00000000 00:00 0 
+2b051e3d0000-2b051e3d1000 ---p 00000000 00:00 0 
+2b051e3d1000-2b051e7d2000 rw-p 00000000 00:00 0 
+2b051e7d2000-2b051e7d3000 ---p 00000000 00:00 0 
+2b051e7d3000-2b051ebd4000 rw-p 00000000 00:00 0 
+2b051ebd4000-2b051ebd5000 ---p 00000000 00:00 0 
+2b051ebd5000-2b051efd6000 rw-p 00000000 00:00 0 
+2b051efd6000-2b051efd7000 ---p 00000000 00:00 0 
+2b051efd7000-2b051f3d8000 rw-p 00000000 00:00 0 
+2b051f3d8000-2b051f3d9000 ---p 00000000 00:00 0 
+2b051f3d9000-2b051fada000 rw-p 00000000 00:00 0 
+2b051fbda000-2b051fbdb000 ---p 00000000 00:00 0 
+2b051fbdb000-2b051ffdc000 rw-p 00000000 00:00 0 
+2b0520000000-2b05200b2000 rw-p 00000000 00:00 0 
+2b05200b2000-2b0524000000 ---p 00000000 00:00 0 
+2b0524000000-2b0524001000 ---p 00000000 00:00 0 
+2b0524001000-2b0524402000 rw-p 00000000 00:00 0 
+2b0524402000-2b0524403000 ---p 00000000 00:00 0 
+2b0524403000-2b0524d12000 rw-p 00000000 00:00 0 
+2b05250b3000-2b0527f5a000 rw-p 00000000 00:00 0 
+2b0528000000-2b05280b2000 rw-p 00000000 00:00 0 
+2b05280b2000-2b052c000000 ---p 00000000 00:00 0 
+2b052c000000-2b052c0b1000 rw-p 00000000 00:00 0 
+2b052c0b1000-2b0530000000 ---p 00000000 00:00 0 
+2b0530000000-2b05300b2000 rw-p 00000000 00:00 0 
+2b05300b2000-2b0534000000 ---p 00000000 00:00 0 
+2b0534000000-2b05340b2000 rw-p 00000000 00:00 0 
+2b05340b2000-2b0538000000 ---p 00000000 00:00 0 
+2b0538000000-2b05380b1000 rw-p 00000000 00:00 0 
+2b05380b1000-2b053c000000 ---p 00000000 00:00 0 
+2b053c000000-2b053c0b1000 rw-p 00000000 00:00 0 
+2b053c0b1000-2b0540000000 ---p 00000000 00:00 0 
+2b0540000000-2b05400b1000 rw-p 00000000 00:00 0 
+2b05400b1000-2b0544000000 ---p 00000000 00:00 0 
+2b0544000000-2b05440b1000 rw-p 00000000 00:00 0 
+2b05440b1000-2b0548000000 ---p 00000000 00:00 0 
+2b0548000000-2b05480b2000 rw-p 00000000 00:00 0 
+2b05480b2000-2b054c000000 ---p 00000000 00:00 0 
+2b054c000000-2b054c0b1000 rw-p 00000000 00:00 0 
+2b054c0b1000-2b0550000000 ---p 00000000 00:00 0 
+2b0550000000-2b05500b1000 rw-p 00000000 00:00 0 
+2b05500b1000-2b0554000000 ---p 00000000 00:00 0 
+2b0554000000-2b05540b2000 rw-p 00000000 00:00 0 
+2b05540b2000-2b0558000000 ---p 00000000 00:00 0 
+2b0558000000-2b05580b1000 rw-p 00000000 00:00 0 
+2b05580b1000-2b055c000000 ---p 00000000 00:00 0 
+2b055c000000-2b055c0b2000 rw-p 00000000 00:00 0 
+2b055c0b2000-2b0560000000 ---p 00000000 00:00 0 
+2b0560000000-2b0563212000 rw-p 00000000 00:00 0 
+2b0563212000-2b0563e27000 rw-p 00000000 00:00 0 
+2b0564000000-2b05640b1000 rw-p 00000000 00:00 0 
+2b05640b1000-2b0568000000 ---p 00000000 00:00 0 
+2b0568000000-2b05680b1000 rw-p 00000000 00:00 0 
+2b05680b1000-2b056c000000 ---p 00000000 00:00 0 
+2b056c000000-2b056c0b1000 rw-p 00000000 00:00 0 
+2b056c0b1000-2b0570000000 ---p 00000000 00:00 0 
+2b0570000000-2b05700b1000 rw-p 00000000 00:00 0 
+2b05700b1000-2b0574000000 ---p 00000000 00:00 0 
+2b0574000000-2b0576e0b000 rw-p 00000000 00:00 0 
+2b0576e0b000-2b057f8e1000 rw-p 00000000 00:00 0 
+7ffe5e1e7000-7ffe5e2d8000 rw-p 00000000 00:00 0                          [stack]
+7ffe5e32d000-7ffe5e32f000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+Abort (core dumped)

@@ -1,0 +1,5 @@
+$rem 
+method = bhhlyp
+basis = 6-31G
+$end
+

@@ -1,0 +1,10 @@
+$molecule
+0 1
+  S   -2.6640174    1.8554498    0.0000000
+$end
+
+$rem 
+method = bhhlyp
+basis = def2-sv(p)
+$end
+

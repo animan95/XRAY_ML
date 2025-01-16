@@ -1,0 +1,5 @@
+$rem 
+method = b3lyp
+basis = aug-cc-pvdz
+$end
+

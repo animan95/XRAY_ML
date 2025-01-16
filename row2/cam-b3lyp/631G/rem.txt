@@ -1,0 +1,5 @@
+$rem 
+method = cam-b3lyp
+basis = 6-31g
+$end
+

@@ -1,0 +1,5 @@
+$rem 
+method = blyp
+basis = sto-3g
+$end
+

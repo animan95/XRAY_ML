@@ -1,0 +1,436 @@
+                  Welcome to Q-Chem
+     A Quantum Leap Into The Future Of Chemistry
+
+
+ Q-Chem 6.2 (devel), Q-Chem, Inc., Pleasanton, CA (2024)
+
+ E. Epifanovsky,  A. T. B. Gilbert,  Xintian Feng,  Joonho Lee,  Yuezhi Mao,  
+ N. Mardirossian,  P. Pokhilko,  A. White,  M. Wormit,  M. P. Coons,  
+ A. L. Dempwolff,  Zhengting Gan,  D. Hait,  P. R. Horn,  L. D. Jacobson,  
+ I. Kaliman,  J. Kussmann,  A. W. Lange,  Ka Un Lao,  D. S. Levine,  Jie Liu,  
+ S. C. McKenzie,  A. F. Morrison,  K. D. Nanda,  F. Plasser,  D. R. Rehn,  
+ M. L. Vidal,  Zhi-Qiang You,  Ying Zhu,  Huseyin Aksu,  B. Alam,  
+ B. Albrecht,  A. Aldossary,  E. Alguire,  J. H. Andersen,  
+ J. E. Arias-Martinez,  V. Athavale,  D. Barton,  K. Begam,  A. Behn,  
+ N. Bellonzi,  Y. A. Bernard,  E. J. Berquist,  H. Burton,  A. Carreras,  
+ K. Carter-Fenk,  Mathew Chow,  Romit Chakraborty,  Chandrima Chakravarty,  
+ Junhan Chen,  A. D. Chien,  K. D. Closser,  V. Cofer-Shabica,  L. Cunha,  
+ S. Dasgupta,  Jia Deng,  Joseph Dickinson,  M. de Wergifosse,  
+ M. Diedenhofen,  Hainam Do,  Wenjie Dou,  S. Ehlert,  Po-Tung Fang,  
+ S. Fatehi,  Qingguo Feng,  Jonathan Fetherolf,  T. Friedhoff,  
+ Thomas Froitzheim,  Sarai Folkestad,  B. Ganoe,  J. Gayvert,  Qinghui Ge,  
+ G. Gidofalvi,  M. Gimferrer,  M. Goldey,  Montgomery Gray,  J. Gomes,  
+ C. Gonzalez-Espinoza,  S. Gulania,  A. Gunina,  J. A. Gyamfi,  
+ M. W. D. Hanson-Heine,  P. H. P. Harbach,  A. W. Hauser,  M. F. Herbst,  
+ M. Hernandez Vera,  M. Hodecker,  Z. C. Holden,  S. Houck,  Xunkun Huang,  
+ Kerwin Hui,  B. C. Huynh,  K. Ikeda,  M. Ivanov,  Nayanthara K. Jayadev,  
+ Hyunjun Ji,  Zuxin Jin,  Hanjie Jiang,  Subrata Jana,  B. Kaduk,  
+ S. Kaehler,  R. Kang,  K. Khistyaev,  Jaehoon Kim,  Yongbin Kim,  
+ P. Klunzinger,  Z. Koczor-Benda,  Joong Hoon Koh,  D. Kosenkov,  
+ Saikiran Kotaru,  L. Koulias,  T. Kowalczyk,  C. M. Krauter,  K. Kue,  
+ A. Kunitsa,  T. Kus,  A. Landau,  K. V. Lawler,  D. Lefrancois,  S. Lehtola,  
+ Rain Li,  Shaozhi Li,  Tao E. Li,  Yi-Pei Li,  Jiashu Liang,  M. Liebenthal,  
+ Hung-Hsuan Lin,  You-Sheng Lin,  Fenglai Liu,  Kuan-Yu Liu,  Xiao Liu,  
+ M. Loipersberger,  A. Luenser,  C. Malbon,  Aniket Mandal,  Manisha,  
+ A. Manjanath,  P. Manohar,  E. Mansoor,  S. F. Manzer,  Shan-Ping Mao,  
+ A. V. Marenich,  T. Markovich,  S. Mason,  F. Matz,  S. A. Maurer,  
+ Samuel May,  Alexandra McIsaac,  P. F. McLaughlin,  M. F. S. J. Menger,  
+ J.-M. Mewes,  S. A. Mewes,  P. Morgante,  Mohammad Mostafanejad,  
+ Madhubani Mukherjee,  J. W. Mullinax,  Quyen Nguyen,  Avik Kumar Ojha,  
+ K. J. Oosterbaan,  Eno Paenurk,  Xiaoliang Pan,  G. Paran,  V. Parravicini,  
+ Alexander C. Paul,  Suranjan K. Paul,  F. Pavosevic,  Zheng Pei,  S. Prager,  
+ E. I. Proynov,  E. Ramos,  B. Rana,  A. E. Rask,  A. Rettig,  R. M. Richard,  
+ F. Rob,  E. Rossomme,  T. Scheele,  M. Scheurer,  M. Schneider,  
+ P. E. Schneider,  Tim K. Schramm,  N. Sergueev,  S. M. Sharada,  
+ Hengyuan Shen,  W. Skomorowski,  D. W. Small,  C. J. Stein,  
+ Alistair J. Sterling,  Yingli Su,  Yu-Chuan Su,  E. J. Sundstrom,  
+ J. Talbot,  Zhen Tao,  J. Thirman,  Hung-Yi Tsai,  T. Tsuchimochi,  
+ N. M. Tubman,  C. Utku,  S. P. Veccham,  O. Vydrov,  Rahel Weiss,  
+ J. Wenzel,  Jonathan Wong,  J. Witte,  H. Wu,  Yanze Wu,  A. Yamada,  
+ Chou-Hsun Yang,  Kun Yao,  S. Yeganeh,  S. R. Yost,  Qi Yu,  A. Zech,  
+ F. Zeller,  Chongxiao Zhao,  Igor Ying Zhang,  Xing Zhang,  Yu Zhang,  
+ D. Zuev,  A. Aspuru-Guzik,  A. T. Bell,  N. A. Besley,  K. B. Bravaya,  
+ B. R. Brooks,  D. Casanova,  Jeng-Da Chai,  Hsing-Ta Chen,  S. Coriani,  
+ C. J. Cramer,  A. E. DePrince, III,  R. A. DiStasio Jr.,  A. Dreuw,  
+ B. D. Dunietz,  T. R. Furlani,  W. A. Goddard III,  S. Grimme,  
+ S. Hammes-Schiffer,  T. Head-Gordon,  W. J. Hehre,  Chao-Ping Hsu,  
+ T.-C. Jagau,  Yousung Jung,  A. Klamt,  Jing Kong,  D. S. Lambrecht,  
+ Xiangyuan Li,  WanZhen Liang,  N. J. Mayhall,  C. W. McCurdy,  J. B. Neaton,  
+ T. Neudecker,  C. Ochsenfeld,  J. A. Parkhill,  R. Peverati,  
+ V. A. Rassolov,  Haisheng Ren,  Yihan Shao,  L. V. Slipchenko,  
+ R. P. Steele,  J. E. Subotnik,  A. J. W. Thom,  A. Tkatchenko,  
+ D. G. Truhlar,  T. Van Voorhis,  Fan Wang,  T. A. Wesolowski,  K. B. Whaley,  
+ H. L. Woodcock III,  P. M. Zimmerman,  S. Faraji,  P. M. W. Gill,  
+ M. Head-Gordon,  J. M. Herbert,  A. I. Krylov
+
+ Contributors to earlier versions of Q-Chem not listed above: 
+ R. D. Adamson,  B. Austin,  R. Baer,  J. Baker,  G. J. O. Beran,  
+ K. Brandhorst,  S. T. Brown,  E. F. C. Byrd,  Arup K. Chakraborty,  
+ G. K. L. Chan,  Chun-Min Chang,  Yunqing Chen,  C.-L. Cheng,  
+ Siu Hung Chien,  D. M. Chipman,  D. L. Crittenden,  H. Dachsel,  
+ R. J. Doerksen,  A. D. Dutoi,  R. G. Edgar,  J. Fosso-Tande,  
+ L. Fusti-Molnar,  D. Ghosh,  A. Ghysels,  A. Golubeva-Zadorozhnaya,  
+ J. Gonthier,  M. S. Gordon,  S. R. Gwaltney,  G. Hawkins,  J. E. Herr,  
+ A. Heyden,  S. Hirata,  E. G. Hohenstein,  G. Kedziora,  F. J. Keil,  
+ C. Kelley,  Jihan Kim,  R. A. King,  R. Z. Khaliullin,  P. P. Korambath,  
+ W. Kurlancheek,  A. Laurent,  A. M. Lee,  M. S. Lee,  S. V. Levchenko,  
+ Ching Yeh Lin,  D. Liotard,  E. Livshits,  R. C. Lochan,  I. Lotan,  
+ L. A. Martinez-Martinez,  P. E. Maslen,  N. Nair,  D. P. O'Neill,  
+ D. Neuhauser,  E. Neuscamman,  C. M. Oana,  R. Olivares-Amaya,  R. Olson,  
+ T. M. Perrine,  B. Peters,  P. A. Pieniazek,  A. Prociuk,  Y. M. Rhee,  
+ J. Ritchie,  M. A. Rohrdanz,  E. Rosta,  N. J. Russ,  H. F. Schaefer III,  
+ M. W. Schmidt,  N. E. Schultz,  S. Sharma,  N. Shenvi,  C. D. Sherrill,  
+ A. C. Simmonett,  A. Sodt,  T. Stein,  D. Stuck,  K. S. Thanthiriwatte,  
+ V. Vanovschi,  L. Vogt,  Tao Wang,  A. Warshel,  M. A. Watson,  
+ C. F. Williams,  Q. Wu,  X. Xu,  Jun Yang,  W. Zhang,  Yan Zhao
+
+   Please cite Q-Chem as follows:
+  "Software for the frontiers of quantum chemistry:
+   An overview of developments in the Q-Chem 5 package"
+   J. Chem. Phys. 155, 084801 (2021)
+   https://doi.org/10.1063/5.0055522 (open access)
+
+ Q-Chem 6.2.0 for Intel X86 EM64T Linux
+
+ Parts of Q-Chem use Armadillo 9.900.5 (Nocturnal Misbehaviour).
+ http://arma.sourceforge.net/
+
+ Q-Chem begins on Tue Sep 17 15:57:04 2024  
+
+ Host: pitzer-login03.hpc.osc.edu
+0
+
+     Scratch files written to /fs/scratch/PAS0291/aniketmandal95/qchem38309//
+ Processing $rem in /users/PAS0291/aniketmandal95/qctrunk2/config/preferences:
+ Processing $rem in /users/PAS0291/aniketmandal95/.qchemrc:
+
+ Checking the input file for inconsistencies... 	...done.
+
+--------------------------------------------------------------
+User input:
+--------------------------------------------------------------
+$molecule
+0 1
+N  -0.00000000  0.00003004  0.00668480  
+H  0.00000000  -0.94342500  -0.38383647  
+H  0.81706006  0.47174748  -0.38382417  
+H  -0.81706006  0.47174748  -0.38382417  
+$end
+
+
+
+
+
+
+
+
+
+
+$rem
+ jobtype = sp
+ method = pbe0
+ unrestricted = false
+ mem_total = 180000
+ cis_n_roots = 100
+ thresh = 14
+ scf_convergence = 9
+ cis_triplets false
+ use_libqints = true
+ scf_algorithm = DIIS
+ BASIS = def2-sv(p)
+ trnss              true
+ trtype             3
+ n_sol              1 ! no. of active orbs
+$end
+
+$alist
+1
+$end
+
+--------------------------------------------------------------
+ ----------------------------------------------------------------
+             Standard Nuclear Orientation (Angstroms)
+    I     Atom           X                Y                Z
+ ----------------------------------------------------------------
+    1      N       0.1171539209     0.0000039917    -0.0000000000
+    2      H      -0.2733514384    -0.9434576340     0.0000000000
+    3      H      -0.2733630041     0.4717148460    -0.8170600600
+    4      H      -0.2733630041     0.4717148460     0.8170600600
+ ----------------------------------------------------------------
+ Molecular Point Group                 Cs    NOp =  2
+ Largest Abelian Subgroup              Cs    NOp =  2
+ Nuclear Repulsion Energy =          11.85478936 hartrees
+ There are        5 alpha and        5 beta electrons
+ Requested basis set is def2-SV(P)
+ There are 12 shells and 20 basis functions
+
+ Total QAlloc Memory Limit 180000 MB
+ Mega-Array Size       188 MB
+ MEM_STATIC part       192 MB
+
+
+                       Distance Matrix (Angstroms)
+             N (  1)   H (  2)   H (  3)
+   H (  2)  1.021085
+   H (  3)  1.021079  1.634105
+   H (  4)  1.021079  1.634105  1.634120
+ 
+ A cutoff of  1.0D-14 yielded     78 shell pairs
+ There are       226 function pairs (       252 Cartesian)
+ Smallest overlap matrix eigenvalue = 3.68E-02
+
+ Scale SEOQF with 1.000000e+00/1.000000e+00/1.000000e+00
+
+ Standard Electronic Orientation quadrupole field applied
+ Nucleus-field energy     =    -0.0000000004 hartrees
+ Guess from superposition of atomic densities
+ Warning:  Energy on first SCF cycle will be non-variational
+ SAD guess density has 10.000000 electrons
+
+ -----------------------------------------------------------------------
+  General SCF calculation program by
+  Eric Jon Sundstrom, Paul Horn, Yuezhi Mao, Dmitri Zuev, Alec White,
+  David Stuck, Shaama M.S., Shane Yost, Joonho Lee, David Small,
+  Daniel Levine, Susi Lehtola, Hugh Burton, Evgeny Epifanovsky,
+  Bang C. Huynh
+ -----------------------------------------------------------------------
+ Exchange:     0.2500 Hartree-Fock + 0.7500 PBE
+ Correlation:  1.0000 PBE
+ Using SG-1 standard quadrature grid
+ A restricted SCF calculation will be
+ performed using DIIS
+ SCF converges when DIIS error is below 1.0e-09
+ ---------------------------------------
+  Cycle       Energy         DIIS error
+ ---------------------------------------
+    1     -56.4157886021      1.70e-01  
+    2     -56.3633936494      3.69e-02  
+    3     -56.3491489235      4.08e-02  
+    4     -56.4232401557      1.19e-03  
+    5     -56.4232948914      8.49e-05  
+    6     -56.4232952511      1.59e-05  
+    7     -56.4232952630      4.74e-07  
+    8     -56.4232952630      7.80e-08  
+    9     -56.4232952630      2.44e-09  
+   10     -56.4232952630      6.82e-11  Convergence criterion met
+ ---------------------------------------
+ SCF time:   CPU 13.37s  wall 2.00s 
+ SCF   energy =   -56.42329526
+ Total energy =   -56.42329526
+ MAX_CIS_SUBSPACE fits in available memory
+ Direct TDDFT/TDA calculation will be performed
+ Exchange:     0.2500 Hartree-Fock + 0.7500 PBE
+ Correlation:  1.0000 PBE
+ Using SG-1 standard quadrature grid
+ Singlet excitation energies requested
+ Defaulting to maximum number of CIS states:    75
+ CIS energy converged when residual is below 10e- 6
+   
+ ***Using a Restricted Set of Single Excitations***
+   
+ RCIS calculation
+   
+ Excitations from specified occupied orbitals
+ -------------------------------------------------------------
+              Orbitals in Truncated CIS space
+ -------------------------------------------------------------
+     1   6   7   8   9  10  11  12  13  14  15  16  17  18  19
+    20
+   
+    Number of Occupied Orbitals =    1  out of     5
+    Number of Virtual Orbitals  =   15  out of    15
+ -------------------------------------------------------------
+ Number of Roots adjusted to:          15
+ ---------------------------------------------------
+ Iter    Rts Conv    Rts Left    Ttl Dev     Max Dev
+ ---------------------------------------------------
+   1        15           0      0.046271    0.006984    Roots Converged
+ ---------------------------------------------------
+ 
+ ---------------------------------------------------
+         TDDFT/TDA Excitation Energies              
+ ---------------------------------------------------
+
+ Excited state   1: excitation energy (eV) =     390.2000
+ Total energy for state   1:                   -42.08370893 au
+    Multiplicity: Singlet
+    Trans. Mom.:  0.0273 X   0.0000 Y   0.0000 Z
+    Strength   :     0.0071245595
+    D(    1) --> V(    1) amplitude =  0.9991
+
+ Excited state   2: excitation energy (eV) =     391.8553
+ Total energy for state   2:                   -42.02287755 au
+    Multiplicity: Singlet
+    Trans. Mom.: -0.0000 X   0.0603 Y  -0.0000 Z
+    Strength   :     0.0349146755
+    D(    1) --> V(    2) amplitude =  0.9951
+
+ Excited state   3: excitation energy (eV) =     391.8554
+ Total energy for state   3:                   -42.02287377 au
+    Multiplicity: Singlet
+    Trans. Mom.: -0.0000 X   0.0000 Y   0.0603 Z
+    Strength   :     0.0349142808
+    D(    1) --> V(    3) amplitude =  0.9951
+
+ Excited state   4: excitation energy (eV) =     402.3214
+ Total energy for state   4:                   -41.63825520 au
+    Multiplicity: Singlet
+    Trans. Mom.:  0.0000 X  -0.0235 Y  -0.0000 Z
+    Strength   :     0.0054212025
+    D(    1) --> V(    4) amplitude =  0.9969
+
+ Excited state   5: excitation energy (eV) =     402.3217
+ Total energy for state   5:                   -41.63824444 au
+    Multiplicity: Singlet
+    Trans. Mom.: -0.0000 X   0.0000 Y  -0.0235 Z
+    Strength   :     0.0054219764
+    D(    1) --> V(    5) amplitude =  0.9969
+
+ Excited state   6: excitation energy (eV) =     406.7788
+ Total energy for state   6:                   -41.47444919 au
+    Multiplicity: Singlet
+    Trans. Mom.: -0.1052 X  -0.0000 Y  -0.0000 Z
+    Strength   :     0.1102318215
+    D(    1) --> V(    6) amplitude = -0.5472
+    D(    1) --> V(    7) amplitude =  0.8359
+
+ Excited state   7: excitation energy (eV) =     407.9489
+ Total energy for state   7:                   -41.43144891 au
+    Multiplicity: Singlet
+    Trans. Mom.: -0.0371 X   0.0000 Y   0.0000 Z
+    Strength   :     0.0137602403
+    D(    1) --> V(    6) amplitude =  0.8324
+    D(    1) --> V(    7) amplitude =  0.5440
+
+ Excited state   8: excitation energy (eV) =     411.0904
+ Total energy for state   8:                   -41.31600091 au
+    Multiplicity: Singlet
+    Trans. Mom.: -0.0000 X  -0.1100 Y   0.0000 Z
+    Strength   :     0.1217883706
+    D(    1) --> V(    8) amplitude =  0.9972
+
+ Excited state   9: excitation energy (eV) =     411.0905
+ Total energy for state   9:                   -41.31599620 au
+    Multiplicity: Singlet
+    Trans. Mom.: -0.0000 X   0.0000 Y   0.1100 Z
+    Strength   :     0.1217883833
+    D(    1) --> V(    9) amplitude =  0.9972
+
+ Excited state  10: excitation energy (eV) =     414.3448
+ Total energy for state  10:                   -41.19640577 au
+    Multiplicity: Singlet
+    Trans. Mom.: -0.0219 X  -0.0000 Y  -0.0000 Z
+    Strength   :     0.0048813789
+    D(    1) --> V(   10) amplitude =  0.9943
+
+ Excited state  11: excitation energy (eV) =     442.3028
+ Total energy for state  11:                   -40.16896641 au
+    Multiplicity: Singlet
+    Trans. Mom.:  0.0000 X   0.0021 Y   0.0000 Z
+    Strength   :     0.0000465419
+    D(    1) --> V(   11) amplitude =  1.0000
+
+ Excited state  12: excitation energy (eV) =     442.3030
+ Total energy for state  12:                   -40.16895855 au
+    Multiplicity: Singlet
+    Trans. Mom.:  0.0000 X  -0.0000 Y   0.0021 Z
+    Strength   :     0.0000465431
+    D(    1) --> V(   12) amplitude =  1.0000
+
+ Excited state  13: excitation energy (eV) =     447.9732
+ Total energy for state  13:                   -39.96058365 au
+    Multiplicity: Singlet
+    Trans. Mom.:  0.0022 X  -0.0000 Y  -0.0000 Z
+    Strength   :     0.0000514574
+    D(    1) --> V(   13) amplitude =  0.9998
+
+ Excited state  14: excitation energy (eV) =     456.7220
+ Total energy for state  14:                   -39.63907257 au
+    Multiplicity: Singlet
+    Trans. Mom.: -0.0000 X   0.0016 Y  -0.0000 Z
+    Strength   :     0.0000270566
+    D(    1) --> V(   14) amplitude =  0.9999
+
+ Excited state  15: excitation energy (eV) =     456.7223
+ Total energy for state  15:                   -39.63905990 au
+    Multiplicity: Singlet
+    Trans. Mom.: -0.0000 X   0.0000 Y   0.0016 Z
+    Strength   :     0.0000270740
+    D(    1) --> V(   15) amplitude =  0.9999
+ 
+ ---------------------------------------------------
+ Starting SETmanPost()
+  SETman timing summary (seconds)
+  CPU time                 1.50s
+  System time              0.00s
+  Wall time                0.21s
+ 
+ --------------------------------------------------------------
+             Orbital Energies (a.u.) and Symmetries
+ --------------------------------------------------------------
+ 
+ Alpha MOs, Restricted
+ -- Occupied --                  
+-14.351  -0.857  -0.466  -0.466  -0.262
+  1 A'    2 A'    1 A"    3 A'    4 A'                                         
+ -- Virtual --                   
+  0.067   0.153   0.153   0.550   0.550   0.727   0.771   0.915
+  5 A'    6 A'    2 A"    7 A'    3 A"    8 A'    9 A'   10 A'                 
+  0.915   0.971   2.115   2.115   2.318   2.638   2.638
+  4 A"   11 A'   12 A'    5 A"   13 A'   14 A'    6 A"                         
+ 
+ Beta MOs, Restricted
+ -- Occupied --                  
+-14.351  -0.857  -0.466  -0.466  -0.262
+  1 A'    2 A'    1 A"    3 A'    4 A'                                         
+ -- Virtual --                   
+  0.067   0.153   0.153   0.550   0.550   0.727   0.771   0.915
+  5 A'    6 A'    2 A"    7 A'    3 A"    8 A'    9 A'   10 A'                 
+  0.915   0.971   2.115   2.115   2.318   2.638   2.638
+  4 A"   11 A'   12 A'    5 A"   13 A'   14 A'    6 A"                         
+ --------------------------------------------------------------
+ 
+          Ground-State Mulliken Net Atomic Charges
+
+     Atom                 Charge (a.u.)
+  ----------------------------------------
+      1 N                    -0.663463
+      2 H                     0.221151
+      3 H                     0.221156
+      4 H                     0.221156
+  ----------------------------------------
+  Sum of atomic charges =     0.000000
+
+ -----------------------------------------------------------------
+                    Cartesian Multipole Moments
+ -----------------------------------------------------------------
+    Charge (ESU x 10^10)
+                 0.0000
+    Dipole Moment (Debye)
+         X      -1.9064      Y      -0.0000      Z       0.0000
+       Tot       1.9064
+    Quadrupole Moments (Debye-Ang)
+        XX      -8.7435     XY      -0.0000     YY      -6.1493
+        XZ      -0.0000     YZ       0.0000     ZZ      -6.1492
+    Octopole Moments (Debye-Ang^2)
+       XXX      -1.7052    XXY      -0.0000    XYY      -0.8158
+       YYY      -0.7007    XXZ       0.0000    XYZ      -0.0000
+       YYZ       0.0000    XZZ      -0.8158    YZZ       0.7006
+       ZZZ       0.0000
+    Hexadecapole Moments (Debye-Ang^3)
+      XXXX      -9.4589   XXXY      -0.0000   XXYY      -3.1901
+      XYYY       0.2758   YYYY      -9.5003   XXXZ      -0.0000
+      XXYZ       0.0000   XYYZ      -0.0000   YYYZ       0.0000
+      XXZZ      -3.1901   XYZZ      -0.2759   YYZZ      -3.1668
+      XZZZ      -0.0000   YZZZ       0.0000   ZZZZ      -9.5003
+ -----------------------------------------------------------------
+ Total job time:  2.50s(wall), 17.05s(cpu) 
+ Tue Sep 17 15:57:06 2024
+
+        *************************************************************
+        *                                                           *
+        *  Thank you very much for using Q-Chem.  Have a nice day.  *
+        *                                                           *
+        *************************************************************
+
+

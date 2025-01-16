@@ -1,0 +1,11 @@
+$molecule
+0 2
+  N   -6.8855912    3.4555625    0.0000000
+$end
+
+
+$rem 
+method = b3lyp
+basis = 6-31g
+$end
+

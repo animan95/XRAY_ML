@@ -1,0 +1,5 @@
+$rem 
+method = wB97
+basis = def2-tzvpd
+$end
+

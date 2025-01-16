@@ -1,0 +1,5 @@
+$rem 
+method = wB97
+basis = 6-31G
+$end
+

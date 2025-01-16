@@ -1,0 +1,5 @@
+$rem 
+method = hf
+basis = def2-tzvpd
+$end
+

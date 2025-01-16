@@ -1,0 +1,16 @@
+$molecule
+0 2
+  P   -2.6640174    1.8554498    0.0000000
+$end
+
+
+
+
+
+$rem 
+method = blyp
+basis = 6-31g
+thresh = 4
+scf_algorithm = gdm
+$end
+

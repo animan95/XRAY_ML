@@ -1,0 +1,8 @@
+$rem 
+method = rSCAN
+basis = aug-cc-pvdz
+scf_algorithm = gdm
+thresh = 14
+max_scf_cycles = 200
+$end
+

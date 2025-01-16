@@ -1,0 +1,4 @@
+This job is running on  p0659.ten.osc.edu
+Temporary directory is  /tmp/slurmtmp.31211710
+Q-Chem scratch directory is  /tmp/slurmtmp.31211710
+slurmstepd: error: *** JOB 31211710 ON p0659 CANCELLED AT 2024-09-05T14:32:31 ***

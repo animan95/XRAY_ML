@@ -1,0 +1,540 @@
+Epoch [1/30], Training Loss: 2163432.2721, Validation Loss: 2312596.2202
+Epoch [2/30], Training Loss: 1960639.4521, Validation Loss: 2081288.3974
+Epoch [3/30], Training Loss: 1748468.0419, Validation Loss: 1831090.4065
+Epoch [4/30], Training Loss: 1521605.6783, Validation Loss: 1559646.8800
+Epoch [5/30], Training Loss: 1268964.9671, Validation Loss: 1285860.2376
+Epoch [6/30], Training Loss: 1029566.4998, Validation Loss: 1004388.7119
+Epoch [7/30], Training Loss: 776984.6059, Validation Loss: 728993.4267
+Epoch [8/30], Training Loss: 539032.8173, Validation Loss: 471404.0310
+Epoch [9/30], Training Loss: 328089.3214, Validation Loss: 267272.4203
+Epoch [10/30], Training Loss: 173720.9374, Validation Loss: 122914.6882
+Epoch [11/30], Training Loss: 73282.8513, Validation Loss: 46061.4451
+Epoch [12/30], Training Loss: 24833.0446, Validation Loss: 13022.0998
+Epoch [13/30], Training Loss: 6373.2036, Validation Loss: 2730.3073
+Epoch [14/30], Training Loss: 1176.1321, Validation Loss: 561.3820
+Epoch [15/30], Training Loss: 298.6192, Validation Loss: 201.9573
+Epoch [16/30], Training Loss: 174.3002, Validation Loss: 171.7325
+Epoch [17/30], Training Loss: 164.5721, Validation Loss: 170.4141
+Epoch [18/30], Training Loss: 164.6139, Validation Loss: 170.2746
+Epoch [19/30], Training Loss: 164.4068, Validation Loss: 170.5057
+Epoch [20/30], Training Loss: 164.5620, Validation Loss: 171.1445
+Epoch [21/30], Training Loss: 164.3329, Validation Loss: 170.8302
+Epoch [22/30], Training Loss: 164.2164, Validation Loss: 170.6049
+Epoch [23/30], Training Loss: 164.2366, Validation Loss: 170.3258
+Epoch [24/30], Training Loss: 164.3758, Validation Loss: 170.8946
+Epoch [25/30], Training Loss: 164.0382, Validation Loss: 170.5248
+Epoch [26/30], Training Loss: 163.8916, Validation Loss: 170.2236
+Epoch [27/30], Training Loss: 163.9328, Validation Loss: 170.4635
+Epoch [28/30], Training Loss: 163.9287, Validation Loss: 169.9381
+Epoch [29/30], Training Loss: 163.9945, Validation Loss: 170.3110
+Epoch [30/30], Training Loss: 163.8768, Validation Loss: 169.6969
+tensor([[-196.1008],
+        [-118.5340],
+        [-294.0589],
+        [-697.6013],
+        [ -60.8726],
+        [-409.6142],
+        [-871.1602],
+        [-545.2245],
+        [-200.0018],
+        [-122.3489],
+        [-297.9461],
+        [-701.7189],
+        [-413.1264],
+        [-875.6223],
+        [-548.8451],
+        [-205.1185],
+        [-127.4989],
+        [-302.8655],
+        [-706.3606],
+        [ -69.4921],
+        [-417.9153],
+        [-880.1196],
+        [-553.5396],
+        [-199.6313],
+        [-119.4711],
+        [-296.3146],
+        [-698.1170],
+        [ -61.1628],
+        [-410.5812],
+        [-870.8511],
+        [-546.0764],
+        [-201.4858],
+        [-123.8940],
+        [-299.0745],
+        [-702.4224],
+        [-414.0354],
+        [-876.0925],
+        [-549.6292],
+        [-197.8892],
+        [-119.1922],
+        [-295.3752],
+        [-698.6287],
+        [ -60.9948],
+        [-409.6278],
+        [-872.2014],
+        [-545.8520],
+        [-192.7290],
+        [-116.0176],
+        [-289.6428],
+        [-690.6688],
+        [ -59.1729],
+        [-404.4482],
+        [-863.1891],
+        [-539.0976],
+        [-196.7190],
+        [-119.8465],
+        [-293.6661],
+        [-695.0892],
+        [ -62.5490],
+        [-408.1299],
+        [-868.0095],
+        [-542.9182],
+        [-201.7745],
+        [-124.9604],
+        [-298.5356],
+        [-699.5754],
+        [ -67.7779],
+        [-412.8410],
+        [-872.3096],
+        [-547.5154],
+        [-199.6313],
+        [-119.4711],
+        [-296.3146],
+        [-698.1170],
+        [ -61.1628],
+        [-410.5812],
+        [-870.8511],
+        [-546.0764],
+        [-194.4591],
+        [-116.6037],
+        [-290.9563],
+        [-691.6685],
+        [ -59.3090],
+        [-405.1118],
+        [-864.1859],
+        [-539.6834],
+        [-194.7093],
+        [-117.9813],
+        [-291.6731],
+        [-692.7241],
+        [ -61.1393],
+        [-406.4951],
+        [-865.2388],
+        [-541.1584],
+        [-198.7020],
+        [-121.8185],
+        [-295.6853],
+        [-697.1723],
+        [ -64.5182],
+        [-410.1768],
+        [-870.1008],
+        [-544.9901],
+        [-203.7437],
+        [-126.9184],
+        [-300.5325],
+        [-701.6252],
+        [ -69.7515],
+        [-414.8602],
+        [-874.3648],
+        [-549.5540],
+        [-201.6005],
+        [-121.4291],
+        [-298.3254],
+        [-700.1611],
+        [ -63.1459],
+        [-412.6059],
+        [-872.9008],
+        [-548.1150],
+        [-196.4450],
+        [-118.5617],
+        [-292.9922],
+        [-693.7265],
+        [ -61.2643],
+        [-407.1587],
+        [-866.2383],
+        [-541.7442],
+        [-193.8538],
+        [-116.7536],
+        [-291.0898],
+        [-692.9213],
+        [ -59.5950],
+        [-406.1341],
+        [-865.7554],
+        [-541.1001],
+        [-197.7605],
+        [-120.5325],
+        [-295.0298],
+        [-697.1890],
+        [ -62.9656],
+        [-409.7352],
+        [-870.3869],
+        [-544.8234],
+        [-202.9188],
+        [-125.7381],
+        [-299.9937],
+        [-701.8307],
+        [ -68.2665],
+        [-414.5658],
+        [-874.8536],
+        [-549.5401],
+        [-200.7589],
+        [-120.2348],
+        [-297.7700],
+        [-700.3390],
+        [ -61.6461],
+        [-412.2976],
+        [-873.3591],
+        [-548.0817],
+        [-195.5312],
+        [-117.3397],
+        [-292.3867],
+        [-693.9043],
+        [ -59.7811],
+        [-406.8088],
+        [-866.7356],
+        [-541.7053]])
+Test Loss: 164082.7344
+Differences: [[ -7.04956754]
+ [ -5.46786267]
+ [ -9.06027051]
+ [-17.47408344]
+ [ -4.29469582]
+ [-11.44879804]
+ [-21.15499435]
+ [-14.27020822]
+ [-10.22137929]
+ [ -8.63793967]
+ [-12.23184824]
+ [-20.65018375]
+ [-14.61276019]
+ [-24.33809468]
+ [-17.43638331]
+ [-15.40604598]
+ [-13.82329313]
+ [-17.41251127]
+ [-25.82525082]
+ [-12.76990976]
+ [-19.79079312]
+ [-29.51031289]
+ [-22.6124831 ]
+ [-13.30668266]
+ [ -8.35874446]
+ [-15.29159335]
+ [-24.33280785]
+ [ -6.06790114]
+ [-17.65400304]
+ [-27.9970072 ]
+ [-21.1357953 ]
+ [-11.79784581]
+ [-10.21564492]
+ [-13.80109089]
+ [-22.2108951 ]
+ [-16.17755151]
+ [-25.89404438]
+ [-18.99868697]
+ [ -8.19035785]
+ [ -5.48120139]
+ [-10.19151717]
+ [-18.59944927]
+ [ -4.2971733 ]
+ [-12.55364705]
+ [-22.28054842]
+ [-15.38751587]
+ [ -6.98126637]
+ [ -5.41690386]
+ [ -8.97083697]
+ [-17.33355377]
+ [ -4.26027307]
+ [-11.34416385]
+ [-20.99353577]
+ [-14.14615097]
+ [-10.15488408]
+ [ -8.58726829]
+ [-12.14515672]
+ [-20.51590626]
+ [ -7.42145504]
+ [-14.51153953]
+ [-24.18394645]
+ [-17.31635516]
+ [-15.33833491]
+ [-13.77187901]
+ [-17.32484299]
+ [-25.68783959]
+ [-12.74560348]
+ [-19.68797508]
+ [-29.35209997]
+ [-22.49046584]
+ [-13.30668266]
+ [ -8.35874446]
+ [-15.29159335]
+ [-24.33280785]
+ [ -6.06790114]
+ [-17.65400304]
+ [-27.9970072 ]
+ [-21.1357953 ]
+ [ -8.12088153]
+ [ -5.42877237]
+ [-10.10202767]
+ [-18.45842103]
+ [ -4.26302272]
+ [-12.46219897]
+ [-22.11825553]
+ [-15.2625887 ]
+ [ -7.02136393]
+ [ -5.45668093]
+ [ -9.01195706]
+ [-17.37526905]
+ [ -4.30009846]
+ [-11.38558919]
+ [-21.03501707]
+ [-14.18785611]
+ [-10.19503761]
+ [ -8.62720561]
+ [-12.18605297]
+ [-20.55812011]
+ [ -7.46134022]
+ [-14.55299539]
+ [-24.22623662]
+ [-17.35828413]
+ [-15.37820864]
+ [-13.81154416]
+ [-17.36526106]
+ [-25.72944296]
+ [-12.77358305]
+ [-19.72887134]
+ [-29.39369319]
+ [-22.5317233 ]
+ [-13.34657165]
+ [ -8.3984096 ]
+ [-15.33232173]
+ [-24.37417723]
+ [ -6.10805467]
+ [-17.6949807 ]
+ [-28.03854953]
+ [-21.17711379]
+ [ -8.16112153]
+ [ -5.46843752]
+ [-10.1432902 ]
+ [-18.50010072]
+ [ -4.3026319 ]
+ [-12.5036243 ]
+ [-22.15976227]
+ [-15.30429384]
+ [ -7.00403682]
+ [ -5.43180945]
+ [ -9.00014451]
+ [-17.37921167]
+ [ -4.26882089]
+ [-11.37828392]
+ [-21.04554763]
+ [-14.18671148]
+ [-10.17596049]
+ [ -8.60115898]
+ [-12.17275495]
+ [-20.5585169 ]
+ [ -7.42990239]
+ [-14.54406729]
+ [-24.23209202]
+ [-17.35492655]
+ [-15.36151234]
+ [-13.78763926]
+ [-17.35434386]
+ [-25.73352294]
+ [-12.75253287]
+ [-19.72293962]
+ [-29.40354208]
+ [-22.53147402]
+ [-13.32950907]
+ [ -8.3742249 ]
+ [-15.32106878]
+ [-24.37788072]
+ [ -6.07768389]
+ [-17.68876918]
+ [-28.04787442]
+ [-21.17644228]
+ [ -8.142604  ]
+ [ -5.44367796]
+ [-10.13096893]
+ [-18.50374317]
+ [ -4.27258544]
+ [-12.49654288]
+ [-22.16993162]
+ [-15.30351041]]
+Differences: ['B' 'Be' 'C' 'F' 'Li' 'N' 'Ne' 'O' 'B' 'Be' 'C' 'F' 'N' 'Ne' 'O' 'B' 'Be'
+ 'C' 'F' 'Li' 'N' 'Ne' 'O' 'B' 'Be' 'C' 'F' 'Li' 'N' 'Ne' 'O' 'B' 'Be' 'C'
+ 'F' 'N' 'Ne' 'O' 'B' 'Be' 'C' 'F' 'Li' 'N' 'Ne' 'O' 'B' 'Be' 'C' 'F' 'Li'
+ 'N' 'Ne' 'O' 'B' 'Be' 'C' 'F' 'Li' 'N' 'Ne' 'O' 'B' 'Be' 'C' 'F' 'Li' 'N'
+ 'Ne' 'O' 'B' 'Be' 'C' 'F' 'Li' 'N' 'Ne' 'O' 'B' 'Be' 'C' 'F' 'Li' 'N'
+ 'Ne' 'O' 'B' 'Be' 'C' 'F' 'Li' 'N' 'Ne' 'O' 'B' 'Be' 'C' 'F' 'Li' 'N'
+ 'Ne' 'O' 'B' 'Be' 'C' 'F' 'Li' 'N' 'Ne' 'O' 'B' 'Be' 'C' 'F' 'Li' 'N'
+ 'Ne' 'O' 'B' 'Be' 'C' 'F' 'Li' 'N' 'Ne' 'O' 'B' 'Be' 'C' 'F' 'Li' 'N'
+ 'Ne' 'O' 'B' 'Be' 'C' 'F' 'Li' 'N' 'Ne' 'O' 'B' 'Be' 'C' 'F' 'Li' 'N'
+ 'Ne' 'O' 'B' 'Be' 'C' 'F' 'Li' 'N' 'Ne' 'O' 'B' 'Be' 'C' 'F' 'Li' 'N'
+ 'Ne' 'O']
+Differences: -7.049567542968759 B scan0 631G
+Differences: -5.467862665664057 Be scan0 631G
+Differences: -9.060270508203132 C scan0 631G
+Differences: -17.474083444218763 F scan0 631G
+Differences: -4.294695822392569 Li scan0 631G
+Differences: -11.448798039765563 N scan0 631G
+Differences: -21.154994345156183 Ne scan0 631G
+Differences: -14.270208224687508 O scan0 631G
+Differences: -10.22137929347653 B scan0 aug-cc-pvdz
+Differences: -8.637939668281248 Be scan0 aug-cc-pvdz
+Differences: -12.231848237031215 C scan0 aug-cc-pvdz
+Differences: -20.650183750312408 F scan0 aug-cc-pvdz
+Differences: -14.612760186171897 N scan0 aug-cc-pvdz
+Differences: -24.338094677968797 Ne scan0 aug-cc-pvdz
+Differences: -17.43638331343743 O scan0 aug-cc-pvdz
+Differences: -15.406045977070306 B scan0 aug-cc-pvtz
+Differences: -13.823293125976548 Be scan0 aug-cc-pvtz
+Differences: -17.412511270781238 C scan0 aug-cc-pvtz
+Differences: -25.825250823124975 F scan0 aug-cc-pvtz
+Differences: -12.769909759082033 Li scan0 aug-cc-pvtz
+Differences: -19.790793118281215 N scan0 aug-cc-pvtz
+Differences: -29.51031288624995 Ne scan0 aug-cc-pvtz
+Differences: -22.612483101250064 O scan0 aug-cc-pvtz
+Differences: -13.306682659882824 B scan0 def2-tzvpd
+Differences: -8.358744457148418 Be scan0 def2-tzvpd
+Differences: -15.291593352890573 C scan0 def2-tzvpd
+Differences: -24.33280785453121 F scan0 def2-tzvpd
+Differences: -6.067901143388667 Li scan0 def2-tzvpd
+Differences: -17.65400303781246 N scan0 def2-tzvpd
+Differences: -27.997007198749998 Ne scan0 def2-tzvpd
+Differences: -21.13579530046877 O scan0 def2-tzvpd
+Differences: -11.7978458073828 B scan0 cc-pvtz
+Differences: -10.215644922988275 Be scan0 cc-pvtz
+Differences: -13.801090885781264 C scan0 cc-pvtz
+Differences: -22.21089509640626 F scan0 cc-pvtz
+Differences: -16.177551508203123 N scan0 cc-pvtz
+Differences: -25.894044381718686 Ne scan0 cc-pvtz
+Differences: -18.998686970625045 O scan0 cc-pvtz
+Differences: -8.190357853828118 B scan0 def2-sv_p
+Differences: -5.481201387031248 Be scan0 def2-sv_p
+Differences: -10.191517167890595 C scan0 def2-sv_p
+Differences: -18.599449269374986 F scan0 def2-sv_p
+Differences: -4.2971733039941356 Li scan0 def2-sv_p
+Differences: -12.553647054765634 N scan0 def2-sv_p
+Differences: -22.280548415624935 Ne scan0 def2-sv_p
+Differences: -15.387515866093736 O scan0 def2-sv_p
+Differences: -6.981266366249997 B b3lyp 631G
+Differences: -5.416903860156253 Be b3lyp 631G
+Differences: -8.970836965624983 C b3lyp 631G
+Differences: -17.333553767031276 F b3lyp 631G
+Differences: -4.260273065380865 Li b3lyp 631G
+Differences: -11.344163849921813 N b3lyp 631G
+Differences: -20.99353577406248 Ne b3lyp 631G
+Differences: -14.14615097484375 O b3lyp 631G
+Differences: -10.15488408304688 B b3lyp aug-cc-pvdz
+Differences: -8.587268290214837 Be b3lyp aug-cc-pvdz
+Differences: -12.145156715312453 C b3lyp aug-cc-pvdz
+Differences: -20.515906258437553 F b3lyp aug-cc-pvdz
+Differences: -7.421455043955078 Li b3lyp aug-cc-pvdz
+Differences: -14.511539532500024 N b3lyp aug-cc-pvdz
+Differences: -24.183946449218638 Ne b3lyp aug-cc-pvdz
+Differences: -17.316355155468727 O b3lyp aug-cc-pvdz
+Differences: -15.33833491402342 B b3lyp aug-cc-pvtz
+Differences: -13.771879014199214 Be b3lyp aug-cc-pvtz
+Differences: -17.324842993671837 C b3lyp aug-cc-pvtz
+Differences: -25.687839593124977 F b3lyp aug-cc-pvtz
+Differences: -12.745603482773433 Li b3lyp aug-cc-pvtz
+Differences: -19.6879750779687 N b3lyp aug-cc-pvtz
+Differences: -29.3520999724999 Ne b3lyp aug-cc-pvtz
+Differences: -22.49046583937502 O b3lyp aug-cc-pvtz
+Differences: -13.306682659882824 B b3lyp def2-tzvpd
+Differences: -8.358744457148418 Be b3lyp def2-tzvpd
+Differences: -15.291593352890573 C b3lyp def2-tzvpd
+Differences: -24.33280785453121 F b3lyp def2-tzvpd
+Differences: -6.067901143388667 Li b3lyp def2-tzvpd
+Differences: -17.65400303781246 N b3lyp def2-tzvpd
+Differences: -27.997007198749998 Ne b3lyp def2-tzvpd
+Differences: -21.13579530046877 O b3lyp def2-tzvpd
+Differences: -8.120881525312484 B b3lyp def2-sv_p
+Differences: -5.428772372890606 Be b3lyp def2-sv_p
+Differences: -10.102027665703133 C b3lyp def2-sv_p
+Differences: -18.458421031250055 F b3lyp def2-sv_p
+Differences: -4.263022715634769 Li b3lyp def2-sv_p
+Differences: -12.462198966249957 N b3lyp def2-sv_p
+Differences: -22.118255525937457 Ne b3lyp def2-sv_p
+Differences: -15.262588704531254 O b3lyp def2-sv_p
+Differences: -7.02136393199217 B cam-b3lyp 631G
+Differences: -5.456680927031243 Be cam-b3lyp 631G
+Differences: -9.011957063124953 C cam-b3lyp 631G
+Differences: -17.375269053750003 F cam-b3lyp 631G
+Differences: -4.3000984624707 Li cam-b3lyp 631G
+Differences: -11.385589187499988 N cam-b3lyp 631G
+Differences: -21.035017071249968 Ne cam-b3lyp 631G
+Differences: -14.187856110468715 O cam-b3lyp 631G
+Differences: -10.195037608398422 B cam-b3lyp aug-cc-pvdz
+Differences: -8.627205606523432 Be cam-b3lyp aug-cc-pvdz
+Differences: -12.186052974375002 C cam-b3lyp aug-cc-pvdz
+Differences: -20.558120106093725 F cam-b3lyp aug-cc-pvdz
+Differences: -7.461340215351562 Li cam-b3lyp aug-cc-pvdz
+Differences: -14.55299538765621 N cam-b3lyp aug-cc-pvdz
+Differences: -24.226236622968713 Ne cam-b3lyp aug-cc-pvdz
+Differences: -17.35828412953117 O cam-b3lyp aug-cc-pvdz
+Differences: -15.378208641328115 B cam-b3lyp aug-cc-pvtz
+Differences: -13.811544161855466 Be cam-b3lyp aug-cc-pvtz
+Differences: -17.36526105828125 C cam-b3lyp aug-cc-pvtz
+Differences: -25.729442960624965 F cam-b3lyp aug-cc-pvtz
+Differences: -12.773583048300779 Li cam-b3lyp aug-cc-pvtz
+Differences: -19.72887133703125 N cam-b3lyp aug-cc-pvtz
+Differences: -29.39369318890624 Ne cam-b3lyp aug-cc-pvtz
+Differences: -22.53172329812503 O cam-b3lyp aug-cc-pvtz
+Differences: -13.346571645976553 B cam-b3lyp def2-tzvpd
+Differences: -8.39840960480467 Be cam-b3lyp def2-tzvpd
+Differences: -15.332321733124957 C cam-b3lyp def2-tzvpd
+Differences: -24.37417723249996 F cam-b3lyp def2-tzvpd
+Differences: -6.1080546687402375 Li cam-b3lyp def2-tzvpd
+Differences: -17.694980698515565 N cam-b3lyp def2-tzvpd
+Differences: -28.038549531093622 Ne cam-b3lyp def2-tzvpd
+Differences: -21.177113794375032 O cam-b3lyp def2-tzvpd
+Differences: -8.161121527851549 B cam-b3lyp def2-sv_p
+Differences: -5.468437520546857 Be cam-b3lyp def2-sv_p
+Differences: -10.143290199999967 C cam-b3lyp def2-sv_p
+Differences: -18.50010072484372 F cam-b3lyp def2-sv_p
+Differences: -4.302631903681636 Li cam-b3lyp def2-sv_p
+Differences: -12.503624303828133 N cam-b3lyp def2-sv_p
+Differences: -22.159762265156132 Ne cam-b3lyp def2-sv_p
+Differences: -15.30429384015622 O cam-b3lyp def2-sv_p
+Differences: -7.004036819570302 B pbe0 631G
+Differences: -5.431809450585931 Be pbe0 631G
+Differences: -9.000144509999984 C pbe0 631G
+Differences: -17.379211668437392 F pbe0 631G
+Differences: -4.26882088767578 Li pbe0 631G
+Differences: -11.378283920703097 N pbe0 631G
+Differences: -21.045547628906206 Ne pbe0 631G
+Differences: -14.186711476249911 O pbe0 631G
+Differences: -10.17596048929687 B pbe0 aug-cc-pvdz
+Differences: -8.601158978281234 Be pbe0 aug-cc-pvdz
+Differences: -12.172754953828132 C pbe0 aug-cc-pvdz
+Differences: -20.55851689890619 F pbe0 aug-cc-pvdz
+Differences: -7.4299023911230435 Li pbe0 aug-cc-pvdz
+Differences: -14.544067292187492 N pbe0 aug-cc-pvdz
+Differences: -24.232092015468652 Ne pbe0 aug-cc-pvdz
+Differences: -17.354926552968777 O pbe0 aug-cc-pvdz
+Differences: -15.36151234339843 B pbe0 aug-cc-pvtz
+Differences: -13.787639257558595 Be pbe0 aug-cc-pvtz
+Differences: -17.354343858906248 C pbe0 aug-cc-pvtz
+Differences: -25.733522936562508 F pbe0 aug-cc-pvtz
+Differences: -12.75253286976563 Li pbe0 aug-cc-pvtz
+Differences: -19.722939618437522 N pbe0 aug-cc-pvtz
+Differences: -29.40354208015617 Ne pbe0 aug-cc-pvtz
+Differences: -22.53147401765625 O pbe0 aug-cc-pvtz
+Differences: -13.329509072812499 B pbe0 def2-tzvpd
+Differences: -8.374224902460924 Be pbe0 def2-tzvpd
+Differences: -15.321068776093739 C pbe0 def2-tzvpd
+Differences: -24.377880717812445 F pbe0 def2-tzvpd
+Differences: -6.077683891787103 Li pbe0 def2-tzvpd
+Differences: -17.68876918187499 N pbe0 def2-tzvpd
+Differences: -28.047874419375034 Ne pbe0 def2-tzvpd
+Differences: -21.176442279062485 O pbe0 def2-tzvpd
+Differences: -8.142604004843747 B pbe0 def2-sv_p
+Differences: -5.443677963320312 Be pbe0 def2-sv_p
+Differences: -10.130968934843736 C pbe0 def2-sv_p
+Differences: -18.503743174999954 F pbe0 def2-sv_p
+Differences: -4.272585440292971 Li pbe0 def2-sv_p
+Differences: -12.49654287546872 N pbe0 def2-sv_p
+Differences: -22.169931623124967 Ne pbe0 def2-sv_p
+Differences: -15.303510405625047 O pbe0 def2-sv_p

@@ -1,0 +1,5 @@
+$rem 
+method = rSCAN
+basis = aug-cc-pvdz
+$end
+

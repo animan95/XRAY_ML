@@ -1,0 +1,349 @@
+                  Welcome to Q-Chem
+     A Quantum Leap Into The Future Of Chemistry
+
+
+ Q-Chem 6.2 (devel), Q-Chem, Inc., Pleasanton, CA (2024)
+
+ E. Epifanovsky,  A. T. B. Gilbert,  Xintian Feng,  Joonho Lee,  Yuezhi Mao,  
+ N. Mardirossian,  P. Pokhilko,  A. White,  M. Wormit,  M. P. Coons,  
+ A. L. Dempwolff,  Zhengting Gan,  D. Hait,  P. R. Horn,  L. D. Jacobson,  
+ I. Kaliman,  J. Kussmann,  A. W. Lange,  Ka Un Lao,  D. S. Levine,  Jie Liu,  
+ S. C. McKenzie,  A. F. Morrison,  K. D. Nanda,  F. Plasser,  D. R. Rehn,  
+ M. L. Vidal,  Zhi-Qiang You,  Ying Zhu,  Huseyin Aksu,  B. Alam,  
+ B. Albrecht,  A. Aldossary,  E. Alguire,  J. H. Andersen,  
+ J. E. Arias-Martinez,  V. Athavale,  D. Barton,  K. Begam,  A. Behn,  
+ N. Bellonzi,  Y. A. Bernard,  E. J. Berquist,  H. Burton,  A. Carreras,  
+ K. Carter-Fenk,  Mathew Chow,  Romit Chakraborty,  Chandrima Chakravarty,  
+ Junhan Chen,  A. D. Chien,  K. D. Closser,  V. Cofer-Shabica,  L. Cunha,  
+ S. Dasgupta,  Jia Deng,  Joseph Dickinson,  M. de Wergifosse,  
+ M. Diedenhofen,  Hainam Do,  Wenjie Dou,  S. Ehlert,  Po-Tung Fang,  
+ S. Fatehi,  Qingguo Feng,  Jonathan Fetherolf,  T. Friedhoff,  
+ Thomas Froitzheim,  Sarai Folkestad,  B. Ganoe,  J. Gayvert,  Qinghui Ge,  
+ G. Gidofalvi,  M. Gimferrer,  M. Goldey,  Montgomery Gray,  J. Gomes,  
+ C. Gonzalez-Espinoza,  S. Gulania,  A. Gunina,  J. A. Gyamfi,  
+ M. W. D. Hanson-Heine,  P. H. P. Harbach,  A. W. Hauser,  M. F. Herbst,  
+ M. Hernandez Vera,  M. Hodecker,  Z. C. Holden,  S. Houck,  Xunkun Huang,  
+ Kerwin Hui,  B. C. Huynh,  K. Ikeda,  M. Ivanov,  Nayanthara K. Jayadev,  
+ Hyunjun Ji,  Zuxin Jin,  Hanjie Jiang,  Subrata Jana,  B. Kaduk,  
+ S. Kaehler,  R. Kang,  K. Khistyaev,  Jaehoon Kim,  Yongbin Kim,  
+ P. Klunzinger,  Z. Koczor-Benda,  Joong Hoon Koh,  D. Kosenkov,  
+ Saikiran Kotaru,  L. Koulias,  T. Kowalczyk,  C. M. Krauter,  K. Kue,  
+ A. Kunitsa,  T. Kus,  A. Landau,  K. V. Lawler,  D. Lefrancois,  S. Lehtola,  
+ Rain Li,  Shaozhi Li,  Tao E. Li,  Yi-Pei Li,  Jiashu Liang,  M. Liebenthal,  
+ Hung-Hsuan Lin,  You-Sheng Lin,  Fenglai Liu,  Kuan-Yu Liu,  Xiao Liu,  
+ M. Loipersberger,  A. Luenser,  C. Malbon,  Aniket Mandal,  Manisha,  
+ A. Manjanath,  P. Manohar,  E. Mansoor,  S. F. Manzer,  Shan-Ping Mao,  
+ A. V. Marenich,  T. Markovich,  S. Mason,  F. Matz,  S. A. Maurer,  
+ Samuel May,  Alexandra McIsaac,  P. F. McLaughlin,  M. F. S. J. Menger,  
+ J.-M. Mewes,  S. A. Mewes,  P. Morgante,  Mohammad Mostafanejad,  
+ Madhubani Mukherjee,  J. W. Mullinax,  Quyen Nguyen,  Avik Kumar Ojha,  
+ K. J. Oosterbaan,  Eno Paenurk,  Xiaoliang Pan,  G. Paran,  V. Parravicini,  
+ Alexander C. Paul,  Suranjan K. Paul,  F. Pavosevic,  Zheng Pei,  S. Prager,  
+ E. I. Proynov,  E. Ramos,  B. Rana,  A. E. Rask,  A. Rettig,  R. M. Richard,  
+ F. Rob,  E. Rossomme,  T. Scheele,  M. Scheurer,  M. Schneider,  
+ P. E. Schneider,  Tim K. Schramm,  N. Sergueev,  S. M. Sharada,  
+ Hengyuan Shen,  W. Skomorowski,  D. W. Small,  C. J. Stein,  
+ Alistair J. Sterling,  Yingli Su,  Yu-Chuan Su,  E. J. Sundstrom,  
+ J. Talbot,  Zhen Tao,  J. Thirman,  Hung-Yi Tsai,  T. Tsuchimochi,  
+ N. M. Tubman,  C. Utku,  S. P. Veccham,  O. Vydrov,  Rahel Weiss,  
+ J. Wenzel,  Jonathan Wong,  J. Witte,  H. Wu,  Yanze Wu,  A. Yamada,  
+ Chou-Hsun Yang,  Kun Yao,  S. Yeganeh,  S. R. Yost,  Qi Yu,  A. Zech,  
+ F. Zeller,  Chongxiao Zhao,  Igor Ying Zhang,  Xing Zhang,  Yu Zhang,  
+ D. Zuev,  A. Aspuru-Guzik,  A. T. Bell,  N. A. Besley,  K. B. Bravaya,  
+ B. R. Brooks,  D. Casanova,  Jeng-Da Chai,  Hsing-Ta Chen,  S. Coriani,  
+ C. J. Cramer,  A. E. DePrince, III,  R. A. DiStasio Jr.,  A. Dreuw,  
+ B. D. Dunietz,  T. R. Furlani,  W. A. Goddard III,  S. Grimme,  
+ S. Hammes-Schiffer,  T. Head-Gordon,  W. J. Hehre,  Chao-Ping Hsu,  
+ T.-C. Jagau,  Yousung Jung,  A. Klamt,  Jing Kong,  D. S. Lambrecht,  
+ Xiangyuan Li,  WanZhen Liang,  N. J. Mayhall,  C. W. McCurdy,  J. B. Neaton,  
+ T. Neudecker,  C. Ochsenfeld,  J. A. Parkhill,  R. Peverati,  
+ V. A. Rassolov,  Haisheng Ren,  Yihan Shao,  L. V. Slipchenko,  
+ R. P. Steele,  J. E. Subotnik,  A. J. W. Thom,  A. Tkatchenko,  
+ D. G. Truhlar,  T. Van Voorhis,  Fan Wang,  T. A. Wesolowski,  K. B. Whaley,  
+ H. L. Woodcock III,  P. M. Zimmerman,  S. Faraji,  P. M. W. Gill,  
+ M. Head-Gordon,  J. M. Herbert,  A. I. Krylov
+
+ Contributors to earlier versions of Q-Chem not listed above: 
+ R. D. Adamson,  B. Austin,  R. Baer,  J. Baker,  G. J. O. Beran,  
+ K. Brandhorst,  S. T. Brown,  E. F. C. Byrd,  Arup K. Chakraborty,  
+ G. K. L. Chan,  Chun-Min Chang,  Yunqing Chen,  C.-L. Cheng,  
+ Siu Hung Chien,  D. M. Chipman,  D. L. Crittenden,  H. Dachsel,  
+ R. J. Doerksen,  A. D. Dutoi,  R. G. Edgar,  J. Fosso-Tande,  
+ L. Fusti-Molnar,  D. Ghosh,  A. Ghysels,  A. Golubeva-Zadorozhnaya,  
+ J. Gonthier,  M. S. Gordon,  S. R. Gwaltney,  G. Hawkins,  J. E. Herr,  
+ A. Heyden,  S. Hirata,  E. G. Hohenstein,  G. Kedziora,  F. J. Keil,  
+ C. Kelley,  Jihan Kim,  R. A. King,  R. Z. Khaliullin,  P. P. Korambath,  
+ W. Kurlancheek,  A. Laurent,  A. M. Lee,  M. S. Lee,  S. V. Levchenko,  
+ Ching Yeh Lin,  D. Liotard,  E. Livshits,  R. C. Lochan,  I. Lotan,  
+ L. A. Martinez-Martinez,  P. E. Maslen,  N. Nair,  D. P. O'Neill,  
+ D. Neuhauser,  E. Neuscamman,  C. M. Oana,  R. Olivares-Amaya,  R. Olson,  
+ T. M. Perrine,  B. Peters,  P. A. Pieniazek,  A. Prociuk,  Y. M. Rhee,  
+ J. Ritchie,  M. A. Rohrdanz,  E. Rosta,  N. J. Russ,  H. F. Schaefer III,  
+ M. W. Schmidt,  N. E. Schultz,  S. Sharma,  N. Shenvi,  C. D. Sherrill,  
+ A. C. Simmonett,  A. Sodt,  T. Stein,  D. Stuck,  K. S. Thanthiriwatte,  
+ V. Vanovschi,  L. Vogt,  Tao Wang,  A. Warshel,  M. A. Watson,  
+ C. F. Williams,  Q. Wu,  X. Xu,  Jun Yang,  W. Zhang,  Yan Zhao
+
+   Please cite Q-Chem as follows:
+  "Software for the frontiers of quantum chemistry:
+   An overview of developments in the Q-Chem 5 package"
+   J. Chem. Phys. 155, 084801 (2021)
+   https://doi.org/10.1063/5.0055522 (open access)
+
+ Q-Chem 6.2.0 for Intel X86 EM64T Linux
+
+ Parts of Q-Chem use Armadillo 9.900.5 (Nocturnal Misbehaviour).
+ http://arma.sourceforge.net/
+
+ Q-Chem begins on Wed Sep  4 15:20:18 2024  
+
+ Host: pitzer-login02.hpc.osc.edu
+0
+
+     Scratch files written to /fs/scratch/PAS0291/aniketmandal95/qchem192959//
+ Processing $rem in /users/PAS0291/aniketmandal95/qctrunk2/config/preferences:
+ Processing $rem in /users/PAS0291/aniketmandal95/.qchemrc:
+
+ Checking the input file for inconsistencies... 	...done.
+
+--------------------------------------------------------------
+User input:
+--------------------------------------------------------------
+$molecule
+0 1
+C  0.03302949  -0.00000000  0.01902629  
+C  0.00551295  -0.00000000  1.41210676  
+C  1.21608189  0.00000000  2.10174593  
+C  2.42435435  -0.00000000  1.39971800  
+C  2.42824052  0.00000000  0.00229416  
+C  1.22573685  -0.00000000  -0.70131823  
+H  -0.95226452  0.00000000  1.92695455  
+H  1.21573466  0.00000000  3.19104274  
+H  3.36808689  -0.00000000  1.94460724  
+H  3.37144656  0.00000000  -0.54261092  
+H  1.19273753  0.00000000  -1.78820087  
+N  -1.25125394  0.00000000  -0.72241779  
+O  -2.29130114  -0.00000000  -0.06114202  
+O  -1.19866009  -0.00000000  -1.95376383  
+$end
+
+
+$rem
+ jobtype = sp
+ method = src1-r1
+ unrestricted = false
+ mem_total = 180000
+ cis_n_roots = 100
+ thresh = 14
+ scf_convergence = 9
+ cis_triplets false
+ use_libqints = true
+ scf_algorithm = DIIS
+ BASIS = def2-tzvpd
+ trnss              true
+ trtype             3
+ n_sol              1 ! no. of active orbs
+$end
+
+$alist
+1
+$end
+
+--------------------------------------------------------------
+ ----------------------------------------------------------------
+             Standard Nuclear Orientation (Angstroms)
+    I     Atom           X                Y                Z
+ ----------------------------------------------------------------
+    1      C       0.2418031374    -0.0000309366    -0.0000000000
+    2      C      -0.4309035452     1.2201723559    -0.0000000000
+    3      C      -1.8241066085     1.2121369567    -0.0000000000
+    4      C      -2.5194907949     0.0000287167     0.0000000000
+    5      C      -1.8241479032    -1.2121209250     0.0000000000
+    6      C      -0.4309430053    -1.2202193243     0.0000000000
+    7      H       0.1411348550     2.1449307014    -0.0000000000
+    8      H      -2.3684515742     2.1556708561    -0.0000000000
+    9      H      -3.6092317688     0.0000535231     0.0000000000
+   10      H      -2.3685384842    -2.1556240122     0.0000000000
+   11      H       0.1410738890    -2.1449892962     0.0000000000
+   12      N       1.7247472535    -0.0000029201    -0.0000000000
+   13      O       2.2948198258     1.0927006466    -0.0000000000
+   14      O       2.2948695026    -1.0926784458     0.0000000000
+ ----------------------------------------------------------------
+ Molecular Point Group                 Cs    NOp =  2
+ Largest Abelian Subgroup              Cs    NOp =  2
+ Nuclear Repulsion Energy =         411.13791322 hartrees
+ There are       32 alpha and       32 beta electrons
+ Requested basis set is def2-TZVPD
+ There are 144 shells and 384 basis functions
+
+ Total QAlloc Memory Limit 180000 MB
+ Mega-Array Size       188 MB
+ MEM_STATIC part       192 MB
+
+
+                       Distance Matrix (Angstroms)
+             C (  1)   C (  2)   C (  3)   C (  4)   C (  5)   C (  6)
+   C (  2)  1.393352
+   C (  3)  2.395273  1.393226
+   C (  4)  2.761294  2.418873  1.397414
+   C (  5)  2.395269  2.803066  2.424258  1.397429
+   C (  6)  1.393358  2.440392  2.803081  2.418892  1.393228
+   H (  7)  2.147323  1.087385  2.175380  3.417533  3.890004  3.413430
+   H (  8)  3.385333  2.151569  1.089297  2.160927  3.411494  3.892374
+   H (  9)  3.851035  3.404477  2.157734  1.089741  2.157751  3.404495
+   H ( 10)  3.385331  3.892355  3.411484  2.160932  1.089293  2.151571
+   H ( 11)  2.147322  3.413425  3.890017  3.417559  2.175394  1.087383
+   N ( 12)  1.482944  2.477026  3.750153  4.244238  3.750185  2.477081
+   O ( 13)  2.325713  2.728702  4.120658  4.936752  4.719968  3.574826
+   O ( 14)  2.325717  3.574789  4.719972  4.936808  4.120749  2.728795
+             H (  7)   H (  8)   H (  9)   H ( 10)   H ( 11)   N ( 12)
+   H (  8)  2.509609
+   H (  9)  4.320387  2.487212
+   H ( 10)  4.979280  4.311295  2.487220
+   H ( 11)  4.289920  4.979297  4.320417  2.509635
+   N ( 12)  2.666190  4.626144  5.333979  4.626196  2.666269
+   O ( 13)  2.396987  4.782887  6.004307  5.683179  3.888606  1.232471
+   O ( 14)  3.888533  5.683163  6.004371  4.783014  2.397122  1.232469
+             O ( 13)
+   O ( 14)  2.185379
+ 
+ A cutoff of  1.0D-14 yielded   9832 shell pairs
+ There are     71136 function pairs (     92540 Cartesian)
+ Smallest overlap matrix eigenvalue = 5.80E-07
+ Linear dependence detected in AO basis
+ Tighter screening thresholds may be required for diffuse basis sets
+ Use S2THRESH > 14 and THRESH = 14 in case of SCF convergence issues
+ Number of orthogonalized atomic orbitals = 383
+ Maximum deviation from orthogonality = 1.265E-10
+
+ Scale SEOQF with 1.000000e-01/1.000000e-01/1.000000e-01
+
+ Standard Electronic Orientation quadrupole field applied
+ Nucleus-field energy     =     0.0000000127 hartrees
+ Guess from superposition of atomic densities
+ Warning:  Energy on first SCF cycle will be non-variational
+ SAD guess density has 64.000000 electrons
+
+ -----------------------------------------------------------------------
+  General SCF calculation program by
+  Eric Jon Sundstrom, Paul Horn, Yuezhi Mao, Dmitri Zuev, Alec White,
+  David Stuck, Shaama M.S., Shane Yost, Joonho Lee, David Small,
+  Daniel Levine, Susi Lehtola, Hugh Burton, Evgeny Epifanovsky,
+  Bang C. Huynh
+ -----------------------------------------------------------------------
+ Exchange:     0.5000 Hartree-Fock + 0.8300 B88 + -0.5000 muB88 + 0.1700 muB88src + LR-HF
+               (Short-Range Corrected Functional)
+ Correlation:  0.1900 VWN5 + 0.8100 LYP
+ Using SG-1 standard quadrature grid
+
+ Call libqints based aoints job 20
+ using 20 threads for integral computing
+ -------------------------------------------------------
+ OpenMP Integral computing Module                
+ Release: version 1.0, May 2013, Q-Chem Inc. Pittsburgh 
+ -------------------------------------------------------
+ A restricted SCF calculation will be
+ performed using DIIS
+ SCF converges when DIIS error is below 1.0e-09
+ ---------------------------------------
+  Cycle       Energy         DIIS error
+ ---------------------------------------
+
+ Call libqints based aoints job 20
+    1    -439.5581876016      2.71e-02  
+
+ Call libqints based aoints job 20
+    2    -437.1997478809      3.84e-03  
+
+ Call libqints based aoints job 20
+    3    -436.8831783111      6.35e-03  
+
+ Call libqints based aoints job 20
+    4    -437.4104619269      6.00e-04  
+
+ Call libqints based aoints job 20
+    5    -437.4141170618      4.26e-04  
+
+ Call libqints based aoints job 20
+    6    -437.4175858934      1.02e-04  
+
+ Call libqints based aoints job 20
+    7    -437.4177611265      2.84e-05  
+
+ Call libqints based aoints job 20
+    8    -437.4177755445      8.64e-06  
+
+ Call libqints based aoints job 20
+    9    -437.4177767975      1.69e-06  
+
+ Call libqints based aoints job 20
+   10    -437.4177768479      4.12e-07  
+
+ Call libqints based aoints job 20
+   11    -437.4177768501      2.00e-07  
+
+ Call libqints based aoints job 20
+   12    -437.4177768506      1.07e-07  
+
+ Call libqints based aoints job 20
+   13    -437.4177768507      5.97e-08  
+
+ Call libqints based aoints job 20
+   14    -437.4177768508      3.52e-09  
+
+ Call libqints based aoints job 20
+   15    -437.4177768507      1.24e-09  
+   16    -437.4177768508      6.25e-10  Convergence criterion met
+ ---------------------------------------
+ SCF time:   CPU 9472.67s  wall 1430.00s 
+ SCF   energy =  -437.41777685
+ Total energy =  -437.41777685
+ MAX_CIS_SUBSPACE fits in available memory
+ Direct TDDFT/TDA calculation will be performed
+ Exchange:     0.5000 Hartree-Fock + 0.8300 B88 + -0.5000 muB88 + 0.1700 muB88src + LR-HF
+               (Short-Range Corrected Functional)
+ Correlation:  0.1900 VWN5 + 0.8100 LYP
+ Using SG-1 standard quadrature grid
+ Singlet excitation energies requested
+ CIS energy converged when residual is below 10e- 6
+   
+ ***Using a Restricted Set of Single Excitations***
+   
+ RCIS calculation
+   
+ Excitations from specified occupied orbitals
+ -------------------------------------------------------------
+              Orbitals in Truncated CIS space
+ -------------------------------------------------------------
+     1  33  34  35  36  37  38  39  40  41  42  43  44  45  46
+    47  48  49  50  51  52  53  54  55  56  57  58  59  60  61
+    62  63  64  65  66  67  68  69  70  71  72  73  74  75  76
+    77  78  79  80  81  82  83  84  85  86  87  88  89  90  91
+    92  93  94  95  96  97  98  99 100 101 102 103 104 105 106
+   107 108 109 110 111 112 113 114 115 116 117 118 119 120 121
+   122 123 124 125 126 127 128 129 130 131 132 133 134 135 136
+   137 138 139 140 141 142 143 144 145 146 147 148 149 150 151
+   152 153 154 155 156 157 158 159 160 161 162 163 164 165 166
+   167 168 169 170 171 172 173 174 175 176 177 178 179 180 181
+   182 183 184 185 186 187 188 189 190 191 192 193 194 195 196
+   197 198 199 200 201 202 203 204 205 206 207 208 209 210 211
+   212 213 214 215 216 217 218 219 220 221 222 223 224 225 226
+   227 228 229 230 231 232 233 234 235 236 237 238 239 240 241
+   242 243 244 245 246 247 248 249 250 251 252 253 254 255 256
+   257 258 259 260 261 262 263 264 265 266 267 268 269 270 271
+   272 273 274 275 276 277 278 279 280 281 282 283 284 285 286
+   287 288 289 290 291 292 293 294 295 296 297 298 299 300 301
+   302 303 304 305 306 307 308 309 310 311 312 313 314 315 316
+   317 318 319 320 321 322 323 324 325 326 327 328 329 330 331
+   332 333 334 335 336 337 338 339 340 341 342 343 344 345 346
+   347 348 349 350 351 352 353 354 355 356 357 358 359 360 361
+   362 363 364 365 366 367 368 369 370 371 372 373 374 375 376
+   377 378 379 380 381 382 383
+   
+    Number of Occupied Orbitals =    1  out of    32
+    Number of Virtual Orbitals  =  351  out of   351
+ -------------------------------------------------------------
+ Number of Roots adjusted to:         100
+ ---------------------------------------------------
+ Iter    Rts Conv    Rts Left    Ttl Dev     Max Dev
+ ---------------------------------------------------

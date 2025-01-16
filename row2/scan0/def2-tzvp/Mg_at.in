@@ -1,0 +1,14 @@
+$molecule
+0 1
+  Mg   -2.6640174    1.8554498    0.0000000
+$end
+
+
+$rem 
+method = rSCAN
+basis = def2-tzvp
+scf_algorithm = gdm
+thresh = 14
+max_scf_cycles = 200
+$end
+

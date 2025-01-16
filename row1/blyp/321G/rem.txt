@@ -1,0 +1,5 @@
+$rem 
+method = blyp
+basis = 3-21g
+$end
+

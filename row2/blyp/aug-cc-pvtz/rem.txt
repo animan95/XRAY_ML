@@ -1,0 +1,8 @@
+$rem 
+method = blyp
+basis = aug-cc-pvtz
+thresh = 14
+scf_algorithm = gdm
+max_scf_cycles = 200
+$end
+

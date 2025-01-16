@@ -1,0 +1,5 @@
+$rem 
+method = b3lyp
+basis = def2-tzvp
+$end
+
