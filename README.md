@@ -1,8 +1,8 @@
-*******************************************************************
-*             *********************************                                                    
-*               ML-shift - A toy x-ray project            
-*             *********************************                                                    
-*******************************************************************
+                                    *********************************************                                
+                                                      XML-shift
+                                        High quality x-ray spectra at low cost
+                                    *********************************************                                       
+
 
 TDDFT functionals (especially GGA and standard hybrids) are woefully inaccurate when it comes to prediciting correct x-ray spectra. Often requiring large shifts to match with experimental results.
 This model has been trained to predict shifts for a set of functionals, essentially as an automated correction to give high quality results at 
