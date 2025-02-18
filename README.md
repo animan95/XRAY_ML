@@ -1,7 +1,7 @@
 *******************************************************************
-*                                                                 *
-*               ML-shift - A toy x-ray project                    *
-*                                                                 *
+*                                                                 
+*               ML-shift - A toy x-ray project                    
+*                                                                 
 *******************************************************************
 
 TDDFT functionals (especially GGA and standard hybrids) are woefully inaccurate when it comes to prediciting correct x-ray spectra. Often requiring large shifts to match with experimental results.
